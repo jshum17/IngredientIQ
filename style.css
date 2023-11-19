@@ -45,6 +45,7 @@ body{
 .search_input{
     background-color: transparent;
     position: relative;
+    width:500px;
     top:10px;
     float: left;
     left: 70px;
@@ -63,11 +64,20 @@ body{
     height: 35px;
 }
 
-.search_icon_img {
+.search_icon {
     float:right;
     position: relative;
     top:20px;
     right:20px;
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.search_icon_img {
     width: 35px;
     height: 35px;
 }
