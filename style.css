@@ -4,11 +4,9 @@
 
 
 body{
-        background: linear-gradient(#4E7547, #ffffff);
-        font-family: 'Koulen';
-
-        height: 100vh;
-        margin: 0;     /* remove dfalt margin of the body */
+    background: linear-gradient(#4E7547, #ffffff);
+    height: 100vh;
+    margin: 0;     /* remove dfalt margin of the body */
 }
 
 .container{
@@ -17,10 +15,12 @@ body{
 }
 
 .name{
+    text-align: center;
     padding-top: 28px;
     padding-left: 47px;
     color: #ffffff;
-    font-size: 25px;
+    font-size: 100px;
+    font-family: 'Koulen';
 }
 
 .searchbar {
@@ -32,7 +32,7 @@ body{
     width: 800px;
     border-radius: 40px;
     border:#4E7547 4px solid;
-    margin: 20px auto;
+    margin: 100px auto;
     text-decoration: none;
     font-weight: bold;
     line-height: 60px;
@@ -80,4 +80,15 @@ body{
 .search_icon_img {
     width: 35px;
     height: 35px;
+}
+
+.instruction {
+    text-align: center;
+    font-size: 18px;
+    position: fixed;
+    color: blue;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px; 
 }
