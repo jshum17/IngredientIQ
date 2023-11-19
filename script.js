@@ -24,11 +24,14 @@ function displayAlternativesForIngredient(ingredientName) {
 
         ingredient.substitutes.forEach(function (substitute) {
           substitutesContainer.innerHTML +=
-            "<br class='item'>" +
             "<div class='item'>" +
+            "<div class='itemName'>" +
             substitute.name +
+            "</div>" + 
+            "<div class='itemCalories'>" +
             " - Calories: " +
             substitute.calories_per_cup +
+            "</div>" +
             "</div>";
         });
       } else {
