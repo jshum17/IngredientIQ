@@ -566,6 +566,64 @@
         {"name": "White Wine Vinegar", "calories_per_tablespoon": 3},
         {"name": "Apple Cider Vinegar", "calories_per_tablespoon": 1}
       ]
+    },
+    {
+      "ingredient": "Coffee Bean",
+      "substitutes": [
+        {"name": "Instant Coffee Powder"},
+        {"name": "Espresso Powder"}
+      ]
+    },
+    {
+      "ingredient": "Sugar",
+      "substitutes": [
+        {"name": "Brown Sugar", "calories_per_cup": 829},
+        {"name": "Coconut Sugar", "calories_per_cup": 720},
+        {"name": "Maple Syrup", "calories_per_1_4_cup": 200},
+        {"name": "Honey", "calories_per_tablespoon": 64},
+        {"name": "Agave Nectar", "calories_per_tablespoon": 60},
+        {"name": "Stevia", "calories_per_teaspoon": 0}
+      ]
+    },
+    {
+      "ingredient": "Beef",
+      "substitutes": [
+        {"name": "Ground Turkey"},
+        {"name": "Ground Chicken"},
+        {"name": "Lentils (for vegetarian option)"},
+        {"name": "Tofu or Tempeh (for vegetarian option)"},
+        {"name": "Plant-based meat alternatives"}
+      ]
+    },
+    {
+      "ingredient": "Spinach",
+      "substitutes": [
+        {"name": "Kale"},
+        {"name": "Swiss Chard"},
+        {"name": "Collard Greens"},
+        {"name": "Arugula"},
+        {"name": "Mustard Greens"}
+      ]
+    },
+    {
+      "ingredient": "Flour",
+      "substitutes": [
+        {"name": "Whole Wheat Flour", "calories_per_cup": 407},
+        {"name": "Spelt Flour", "calories_per_cup": "Varies"},
+        {"name": "Oat Flour", "calories_per_cup": "Varies"},
+        {"name": "Gluten-Free Flour Blend", "calories_per_cup": "Varies"},
+        {"name": "Almond Flour", "calories_per_cup": 576},
+        {"name": "Coconut Flour", "calories_per_cup": 480}
+      ]
+    },
+    {
+      "ingredient": "Peanut",
+      "substitutes": [
+        {"name": "Almonds", "calories_per_cup": 529},
+        {"name": "Cashews", "calories_per_cup": 786},
+        {"name": "Sunflower Seeds", "calories_per_cup": 745},
+        {"name": "Other nuts or seeds of your choice"}
+      ]
     }
   ]
 }

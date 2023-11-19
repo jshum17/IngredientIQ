@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Ingredient IQ</title>
-    <link rel="icon" type="image/x-icon" href="images/logo.PNG">
-    <link href='https://fonts.googleapis.com/css?family=Koulen' rel='stylesheet'>
-    <link href="style.css" rel="stylesheet" type="text/css">
-    <script defer src="script.js"></script>
-  </head>
+
+<head>
+  <title>Ingredient IQ</title>
+  <link rel="icon" type="image/x-icon" href="images/logo.PNG">
+  <link href='https://fonts.googleapis.com/css?family=Koulen' rel='stylesheet'>
+  <link href="style.css" rel="stylesheet" type="text/css">
+
+</head>
+
 
 
 
   <body>
     <div class="bg">
+
     <div class="home">
 
  
@@ -25,62 +28,65 @@
       <div class="container">
         <div class="searchbar">
           <img class="search_icon_leaf" src="images/logo.PNG" alt="Search Icon">
-          <input id="ingredientInputHome" type="text" class="search_input" placeholder="Search Your Ingredient">
-          <button id="search_button" class = "search_icon"><img class="search_icon_img" src="images/search.png" alt="Search Icon"></button>
-        </div>
-      </div>
 
-      <div>
-        <ul class="shortcuts">
+          <input id="ingredientInputHome" type="text" class="search_input" placeholder="Search Your Ingredient">
+          <button class="search_icon"><img class="search_icon_img" src="images/search.png" alt="Search Icon"></button>
+        </a>
+
 
         <div class="symbols">
           <ul class="shortcuts">
-  
+
             <li class="common_allergy">
-                <a href="#">
-                    <img width="40px" height="40px" class="foodlogo" src="images/egg.png"/>
-                </a>
-            </li>
-            <li class="common_allergy">
-                <a href="#">
-                    <img width="40px" height="40px" class="foodlogo" src="images/sugar.png"/>
-                </a>
-            </li>
-            <li class="common_allergy">
-                <a href="#">
-                    <img width="40px" height="40px" class="foodlogo" src="images/milk.png"/>
-                </a>
+
+              <a href="#">
+                <img id="coffeeBeanIcon" width="40px" height="40px" class="foodlogo" src="images/coffee.png" />
+              </a>
+
             </li>
             <li class="common_allergy">
               <a href="#">
-                  <img width="40px" height="40px" class="foodlogo" src="images/meat.png"/>
+                <img id="sugarIcon" width="40px" height="40px" class="foodlogo" src="images/sugar.png" />
               </a>
-            </li>
-            <li class="common_allergy">
-            <a href="#">
-                <img width="40px" height="40px" class="foodlogo" src="images/spanich.png"/>
-            </a>
-            </li>
-            <li class="common_allergy">
-            <a href="#">
-                <img width="40px" height="40px" class="foodlogo" src="images/wheat.png"/>
-            </a>
             </li>
             <li class="common_allergy">
               <a href="#">
-                  <img width="40px" height="40px" class="foodlogo" src="images/peanut.png"/>
+                <img id="milkIcon" width="40px" height="40px" class="foodlogo" src="images/milk.png" />
               </a>
             </li>
-        </ul>
+            <li class="common_allergy">
+              <a href="#">
+                <img id="beefIcon" width="40px" height="40px" class="foodlogo" src="images/meat.png" />
+              </a>
+            </li>
+            <li class="common_allergy">
+              <a href="#">
+                <img id="spinachIcon" width="40px" height="40px" class="foodlogo" src="images/spanich.png" />
+              </a>
+            </li>
+            <li class="common_allergy">
+              <a href="#">
+                <img id="flourIcon" width="40px" height="40px" class="foodlogo" src="images/wheat.png" />
+              </a>
+            </li>
+            <li class="common_allergy">
+              <a href="#">
+                <img id="peanutIcon" width="40px" height="40px" class="foodlogo" src="images/peanut.png" />
+              </a>
+            </li>
+          </ul>
         </div>
 
-        
+
         <div id="ingredientNameContainer" class="IndividualAlternativeinfo"></div>
 
         <p class="instruction">How to use Ingredient IQ?</p>
       </div>
 
-      
+
     </div>
-  </body>
+
+    <script defer src="script.js"></script>
+</body>
+
 </html>
