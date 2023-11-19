@@ -114,8 +114,37 @@ body{
     padding: 15px; 
 }
 
+.shortcuts{
+    list-style-type: none;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+.common_allergy{
+    display: inline-block;
+}
+
+.foodlogo{
+    width: 40px;
+    height: 40px;
+    filter: invert(100%);
+    margin: 25px;
+}
+
+
 /* Ingredient page */
 
 .ingredient .searchbar{
     margin-top: 30px;
+    
+}
+
+.name_ing{
+    padding-top: 28px;
+    padding-left: 47px;
+    color: #ffffff;
+    font-size: 40px;
+    font-family: 'Koulen';
 }
