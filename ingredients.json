@@ -1,0 +1,572 @@
+{
+  "substitutions": [
+    {
+      "ingredient": "All-Purpose Flour",
+      "substitutes": [
+        {"name": "Whole Wheat Flour", "calories_per_cup": 407},
+        {"name": "Spelt Flour", "calories_per_cup": "Varies"},
+        {"name": "Oat Flour", "calories_per_cup": "Varies"},
+        {"name": "Gluten-Free Flour Blend", "calories_per_cup": "Varies"},
+        {"name": "Almond Flour", "calories_per_cup": 576},
+        {"name": "Coconut Flour", "calories_per_cup": 480}
+      ]
+    },
+    {
+      "ingredient": "Granulated Sugar",
+      "substitutes": [
+        {"name": "Brown Sugar", "calories_per_cup": 829},
+        {"name": "Coconut Sugar", "calories_per_cup": 720},
+        {"name": "Maple Syrup", "calories_per_1_4_cup": 200},
+        {"name": "Honey", "calories_per_tablespoon": 64},
+        {"name": "Agave Nectar", "calories_per_tablespoon": 60},
+        {"name": "Stevia", "calories_per_teaspoon": 0}
+      ]
+    },
+    {
+      "ingredient": "Butter",
+      "substitutes": [
+        {"name": "Coconut Oil", "calories_per_cup": 1920},
+        {"name": "Olive Oil", "calories_per_cup": 1920},
+        {"name": "Ghee", "calories_per_cup": 1927},
+        {"name": "Vegan Butter", "calories_per_cup": "Varies"},
+        {"name": "Nut Butters (e.g., almond, peanut)", "calories_per_cup": "Varies"}
+      ]
+    },
+    {
+      "ingredient": "Milk",
+      "substitutes": [
+        {"name": "Almond Milk (unsweetened)", "calories_per_cup": 13},
+        {"name": "Soy Milk (unsweetened)", "calories_per_cup": 80},
+        {"name": "Coconut Milk (canned, unsweetened)", "calories_per_cup": 445},
+        {"name": "Oat Milk (unsweetened)", "calories_per_cup": "Varies"},
+        {"name": "Rice Milk (unsweetened)", "calories_per_cup": 120},
+        {"name": "Cashew Milk (unsweetened)", "calories_per_cup": "Varies"}
+      ]
+    },
+    {
+      "ingredient": "Eggs",
+      "substitutes": [
+        {"name": "Mashed Bananas", "calories_per_cup": 200},
+        {"name": "Applesauce", "calories_per_cup": 100},
+        {"name": "Yogurt (dairy or non-dairy)", "calories_per_cup": "Varies"},
+        {"name": "Silken Tofu", "calories_per_cup": 144},
+        {"name": "Commercial Egg Replacers", "calories_per_serving": "Varies"},
+        {"name": "Buttermilk (for leavening)", "calories_per_cup": 98}
+      ]
+    },
+    {
+      "ingredient": "Sour Cream",
+      "substitutes": [
+        {"name": "Greek Yogurt", "calories_per_cup": 100},
+        {"name": "Dairy-Free Yogurt", "calories": "Varies"},
+        {"name": "Buttermilk and Lemon Juice/Vinegar", "calories_per_cup": 98}
+      ]
+    },
+    {
+      "ingredient": "Cream",
+      "substitutes": [
+        {"name": "Coconut Cream", "calories_per_cup": "Varies"},
+        {"name": "Cashew Cream", "calories_per_cup": "Varies"},
+        {"name": "Non-Dairy Coffee Creamer", "calories_per_cup": "Varies"}
+      ]
+    },
+    {
+      "ingredient": "Chocolate (Unsweetened)",
+      "substitutes": [
+        {"name": "Cocoa Powder and a Fat Source (Butter or Oil)", "calories_per_cup": "Varies"},
+        {"name": "Carob Powder", "calories_per_cup": "Varies"}
+      ]
+    },
+    {
+      "ingredient": "Breadcrumbs",
+      "substitutes": [
+        {"name": "Crushed Crackers", "calories_per_cup": "Varies"},
+        {"name": "Rolled Oats", "calories_per_cup": 300},
+        {"name": "Panko Crumbs", "calories_per_cup": "Varies"},
+        {"name": "Ground Nuts", "calories_per_cup": "Varies"}
+      ]
+    },
+    {
+      "ingredient": "Yogurt",
+      "substitutes": [
+        {"name": "Sour Cream", "calories_per_cup": 100},
+        {"name": "Buttermilk", "calories_per_cup": 98},
+        {"name": "Dairy-Free Yogurt", "calories": "Varies"}
+      ]
+    },
+    {
+      "ingredient": "Cream Cheese",
+      "substitutes": [
+        {"name": "Vegan Cream Cheese", "calories_per_2_tablespoons": "Varies"},
+        {"name": "Cashew-Based Cream Cheese", "calories_per_2_tablespoons": "Varies"},
+        {"name": "Greek Yogurt (for savory dishes)", "calories_per_cup": "Varies"}
+      ]
+    },
+    {
+      "ingredient": "Buttermilk",
+      "substitutes": [
+        {"name": "Milk with Vinegar or Lemon Juice", "calories_per_cup": "Varies"},
+        {"name": "Yogurt Mixed with Milk", "calories_per_cup": "Varies"}
+      ]
+    },
+    {
+      "ingredient": "Baking Powder",
+      "substitutes": [
+        {"name": "Baking Soda and Cream of Tartar", "calories_per_teaspoon": "Varies"},
+        {"name": "Yogurt (for leavening)", "calories_per_cup": "Varies"}
+      ]
+    },
+    {
+      "ingredient": "Baking Soda",
+      "substitutes": [
+        {"name": "Baking Powder (Adjust Other Acidic Ingredients)", "calories_per_teaspoon": "Varies"},
+        {"name": "Yogurt (for leavening)", "calories_per_cup": "Varies"}
+      ]
+    },
+    {
+      "ingredient": "Honey",
+      "substitutes": [
+        {"name": "Maple Syrup", "calories_per_tablespoon": 52},
+        {"name": "Agave Nectar", "calories_per_tablespoon": 60},
+        {"name": "Brown Rice Syrup", "calories_per_tablespoon": 55}
+      ]
+    },
+    {
+      "ingredient": "Soy Sauce",
+      "substitutes": [
+        {"name": "Tamari", "calories_per_tablespoon": 10},
+        {"name": "Coconut Aminos", "calories_per_tablespoon": 5},
+        {"name": "Hoisin Sauce", "calories_per_tablespoon": 42}
+      ]
+    },
+    {
+      "ingredient": "Cheese",
+      "substitutes": [
+        {"name": "Nutritional Yeast", "calories_per_tablespoon": 20},
+        {"name": "Vegan Cheese Alternatives", "calories_per_cup": "Varies"},
+        {"name": "Cashew Cheese", "calories_per_2_tablespoons": "Varies"}
+      ]
+    },
+    {
+      "ingredient": "Lemon Juice",
+      "substitutes": [
+        {"name": "White Vinegar", "calories_per_tablespoon": 3},
+        {"name": "Apple Cider Vinegar", "calories_per_tablespoon": 1},
+        {"name": "Lime Juice", "calories_per_tablespoon": 4}
+      ]
+    },
+    {
+      "ingredient": "Heavy Cream",
+      "substitutes": [
+        {"name": "Coconut Cream", "calories_per_cup": 792},
+        {"name": "Cashew Cream", "calories_per_cup": "Varies"},
+        {"name": "Evaporated Milk", "calories_per_cup": 345}
+      ]
+    },
+    {
+      "ingredient": "Wine (in Cooking)",
+      "substitutes": [
+        {"name": "Broth (Vegetable, Chicken, or Beef)", "calories_per_cup": "Varies"},
+        {"name": "Non-Alcoholic Wine", "calories_per_cup": "Varies"},
+        {"name": "Grape Juice", "calories_per_cup": 154}
+      ]
+    }, 
+    {
+      "ingredient": "Wheat Flour",
+      "substitutes": [
+        {"name": "Spelt Flour", "calories_per_cup": "Varies"},
+        {"name": "Rice Flour", "calories_per_cup": 576},
+        {"name": "Buckwheat Flour", "calories_per_cup": 402},
+        {"name": "Chickpea Flour", "calories_per_cup": 356}
+      ]
+    },
+    {
+      "ingredient": "White Sugar",
+      "substitutes": [
+        {"name": "Brown Sugar", "calories_per_cup": 829},
+        {"name": "Coconut Sugar", "calories_per_cup": 720},
+        {"name": "Maple Syrup", "calories_per_1_4_cup": 200},
+        {"name": "Honey", "calories_per_tablespoon": 64},
+        {"name": "Agave Nectar", "calories_per_tablespoon": 60},
+        {"name": "Stevia", "calories_per_teaspoon": 0}
+      ]
+    },
+    {
+      "ingredient": "Shortening",
+      "substitutes": [
+        {"name": "Butter", "calories_per_cup": 1928},
+        {"name": "Coconut Oil", "calories_per_cup": 1920},
+        {"name": "Lard", "calories_per_cup": 1844},
+        {"name": "Applesauce", "calories_per_cup": 100}
+      ]
+    },
+    {
+      "ingredient": "Buttermilk",
+      "substitutes": [
+        {"name": "Milk with Vinegar or Lemon Juice", "calories_per_cup": "Varies"},
+        {"name": "Yogurt Mixed with Milk", "calories_per_cup": "Varies"}
+      ]
+    },
+    {
+      "ingredient": "Cream of Tartar",
+      "substitutes": [
+        {"name": "White Vinegar", "calories_per_tablespoon": 3},
+        {"name": "Lemon Juice", "calories_per_tablespoon": 4}
+      ]
+    },
+    {
+      "ingredient": "Mayonnaise",
+      "substitutes": [
+        {"name": "Greek Yogurt", "calories_per_cup": 100},
+        {"name": "Avocado", "calories_per_cup": 240},
+        {"name": "Olive Oil", "calories_per_cup": 1909}
+      ]
+    },
+    {
+      "ingredient": "Soy Sauce",
+      "substitutes": [
+        {"name": "Tamari", "calories_per_tablespoon": 10},
+        {"name": "Coconut Aminos", "calories_per_tablespoon": 5},
+        {"name": "Hoisin Sauce", "calories_per_tablespoon": 42}
+      ]
+    },
+    {
+      "ingredient": "White Vinegar",
+      "substitutes": [
+        {"name": "Apple Cider Vinegar", "calories_per_tablespoon": 1},
+        {"name": "Lemon Juice", "calories_per_tablespoon": 4},
+        {"name": "White Wine Vinegar", "calories_per_tablespoon": 3}
+      ]
+    },
+    {
+      "ingredient": "Butter (Salted)",
+      "substitutes": [
+        {"name": "Unsalted Butter", "calories_per_cup": 1628},
+        {"name": "Margarine", "calories_per_cup": 1840},
+        {"name": "Coconut Oil", "calories_per_cup": 1920},
+        {"name": "Olive Oil", "calories_per_cup": 1909}
+      ]
+    },
+    {
+      "ingredient": "Flaxseed (Egg Substitute)",
+      "substitutes": [
+        {"name": "Chia Seeds (Egg Substitute)", "calories_per_tablespoon": 69},
+        {"name": "Silken Tofu (Blended)", "calories_per_cup": 144},
+        {"name": "Applesauce (Egg Substitute)", "calories_per_cup": 100}
+      ]
+    },
+    {
+      "ingredient": "Cornstarch",
+      "substitutes": [
+        {"name": "Arrowroot Starch", "calories_per_cup": 480},
+        {"name": "Potato Starch", "calories_per_cup": 520},
+        {"name": "Tapioca Starch", "calories_per_cup": 544}
+      ]
+    },
+    {
+      "ingredient": "Corn Syrup",
+      "substitutes": [
+        {"name": "Maple Syrup", "calories_per_tablespoon": 52},
+        {"name": "Agave Nectar", "calories_per_tablespoon": 60},
+        {"name": "Brown Rice Syrup", "calories_per_tablespoon": 55}
+      ]
+    },
+    {
+      "ingredient": "Sesame Oil",
+      "substitutes": [
+        {"name": "Avocado Oil", "calories_per_tablespoon": 124},
+        {"name": "Grapeseed Oil", "calories_per_tablespoon": 120},
+        {"name": "Sunflower Oil", "calories_per_tablespoon": 120}
+      ]
+    },
+    {
+      "ingredient": "Shellfish",
+      "substitutes": [
+        {"name": "Fish", "calories_per_3_ounces": "Varies"},
+        {"name": "Tofu (for texture)", "calories_per_cup": 144},
+        {"name": "Mushrooms (for umami)", "calories_per_cup": 15}
+      ]
+    },
+    {
+      "ingredient": "Peanuts",
+      "substitutes": [
+        {"name": "Almonds", "calories_per_cup": 529},
+        {"name": "Cashews", "calories_per_cup": 786},
+        {"name": "Sunflower Seeds", "calories_per_cup": 745}
+      ]
+    },
+    {
+      "ingredient": "Parsley",
+      "substitutes": [
+        {"name": "Cilantro", "calories_per_cup": 0},
+        {"name": "Chives", "calories_per_cup": 1},
+        {"name": "Basil", "calories_per_cup": 5}
+      ]
+    },
+    {
+      "ingredient": "Cilantro",
+      "substitutes": [
+        {"name": "Parsley", "calories_per_cup": 0},
+        {"name": "Chives", "calories_per_cup": 1},
+        {"name": "Basil", "calories_per_cup": 5}
+      ]
+    },
+    {
+      "ingredient": "Turmeric",
+      "substitutes": [
+        {"name": "Curry Powder", "calories_per_tablespoon": 20},
+        {"name": "Saffron", "calories_per_tablespoon": 20},
+        {"name": "Paprika", "calories_per_tablespoon": 20}
+      ]
+    },
+    {
+      "ingredient": "Paprika",
+      "substitutes": [
+        {"name": "Cayenne Pepper", "calories_per_tablespoon": 17},
+        {"name": "Chili Powder", "calories_per_tablespoon": 24},
+        {"name": "Black Pepper", "calories_per_tablespoon": 16}
+      ]
+    },
+    {
+      "ingredient": "Thyme",
+      "substitutes": [
+        {"name": "Rosemary", "calories_per_tablespoon": 2},
+        {"name": "Sage", "calories_per_tablespoon": 3},
+        {"name": "Oregano", "calories_per_tablespoon": 3}
+      ]
+    },
+    {
+      "ingredient": "Fish Sauce",
+      "substitutes": [
+        {"name": "Soy Sauce", "calories_per_tablespoon": 10},
+        {"name": "Tamari", "calories_per_tablespoon": 10},
+        {"name": "Anchovy Paste", "calories_per_tablespoon": 20}
+      ]
+    },
+    {
+      "ingredient": "Cumin",
+      "substitutes": [
+        {"name": "Coriander", "calories_per_tablespoon": 5},
+        {"name": "Chili Powder", "calories_per_tablespoon": 24},
+        {"name": "Paprika", "calories_per_tablespoon": 20}
+      ]
+    },
+    {
+      "ingredient": "Rosemary",
+      "substitutes": [
+        {"name": "Thyme", "calories_per_tablespoon": 3},
+        {"name": "Sage", "calories_per_tablespoon": 3},
+        {"name": "Oregano", "calories_per_tablespoon": 3}
+      ]
+    },
+    {
+      "ingredient": "Sage",
+      "substitutes": [
+        {"name": "Thyme", "calories_per_tablespoon": 3},
+        {"name": "Rosemary", "calories_per_tablespoon": 2},
+        {"name": "Oregano", "calories_per_tablespoon": 3}
+      ]
+    },
+    {
+      "ingredient": "Oregano",
+      "substitutes": [
+        {"name": "Thyme", "calories_per_tablespoon": 3},
+        {"name": "Rosemary", "calories_per_tablespoon": 2},
+        {"name": "Sage", "calories_per_tablespoon": 3}
+      ]
+    },
+    {
+      "ingredient": "Basil",
+      "substitutes": [
+        {"name": "Cilantro", "calories_per_cup": 0},
+        {"name": "Parsley", "calories_per_cup": 0},
+        {"name": "Chives", "calories_per_cup": 1}
+      ]
+    },
+    {
+      "ingredient": "Chives",
+      "substitutes": [
+        {"name": "Cilantro", "calories_per_cup": 0},
+        {"name": "Parsley", "calories_per_cup": 0},
+        {"name": "Basil", "calories_per_cup": 5}
+      ]
+    },
+    {
+      "ingredient": "Garlic",
+      "substitutes": [
+        {"name": "Onion Powder", "calories_per_tablespoon": 22},
+        {"name": "Chives", "calories_per_cup": 1},
+        {"name": "Shallots", "calories_per_cup": 72}
+      ]
+    },
+    {
+      "ingredient": "Shallots",
+      "substitutes": [
+        {"name": "Onion Powder", "calories_per_tablespoon": 22},
+        {"name": "Chives", "calories_per_cup": 1},
+        {"name": "Garlic", "calories_per_cup": 203}
+      ]
+    },
+    {
+      "ingredient": "Cayenne Pepper",
+      "substitutes": [
+        {"name": "Paprika", "calories_per_tablespoon": 20},
+        {"name": "Chili Powder", "calories_per_tablespoon": 24},
+        {"name": "Black Pepper", "calories_per_tablespoon": 16}
+      ]
+    },
+    {
+      "ingredient": "Chili Powder",
+      "substitutes": [
+        {"name": "Cayenne Pepper", "calories_per_tablespoon": 17},
+        {"name": "Paprika", "calories_per_tablespoon": 20},
+        {"name": "Black Pepper", "calories_per_tablespoon": 16}
+      ]
+    },
+    {
+      "ingredient": "Black Pepper",
+      "substitutes": [
+        {"name": "Cayenne Pepper", "calories_per_tablespoon": 17},
+        {"name": "Paprika", "calories_per_tablespoon": 20},
+        {"name": "Chili Powder", "calories_per_tablespoon": 24}
+      ]
+    },
+    {
+      "ingredient": "Curry Powder",
+      "substitutes": [
+        {"name": "Turmeric", "calories_per_tablespoon": 20},
+        {"name": "Cumin", "calories_per_tablespoon": 22},
+        {"name": "Coriander", "calories_per_tablespoon": 5}
+      ]
+    },
+    {
+      "ingredient": "Saffron",
+      "substitutes": [
+        {"name": "Turmeric", "calories_per_tablespoon": 20},
+        {"name": "Paprika", "calories_per_tablespoon": 20},
+        {"name": "Cumin", "calories_per_tablespoon": 22}
+      ]
+    },
+    {
+      "ingredient": "Pumpkin Pie Spice",
+      "substitutes": [
+        {"name": "Cinnamon", "calories_per_tablespoon": 19},
+        {"name": "Nutmeg", "calories_per_tablespoon": 36},
+        {"name": "Allspice", "calories_per_tablespoon": 21}
+      ]
+    },
+    {
+      "ingredient": "Allspice",
+      "substitutes": [
+        {"name": "Cinnamon", "calories_per_tablespoon": 19},
+        {"name": "Nutmeg", "calories_per_tablespoon": 36},
+        {"name": "Cloves", "calories_per_tablespoon": 22}
+      ]
+    },
+    {
+      "ingredient": "Cloves",
+      "substitutes": [
+        {"name": "Cinnamon", "calories_per_tablespoon": 19},
+        {"name": "Nutmeg", "calories_per_tablespoon": 36},
+        {"name": "Allspice", "calories_per_tablespoon": 21}
+      ]
+    },
+    {
+      "ingredient": "Nutmeg",
+      "substitutes": [
+        {"name": "Cinnamon", "calories_per_tablespoon": 19},
+        {"name": "Allspice", "calories_per_tablespoon": 21},
+        {"name": "Cloves", "calories_per_tablespoon": 22}
+      ]
+    },
+    {
+      "ingredient": "Dill",
+      "substitutes": [
+        {"name": "Tarragon", "calories_per_tablespoon": 3},
+        {"name": "Chervil", "calories_per_tablespoon": 1},
+        {"name": "Parsley", "calories_per_tablespoon": 1}
+      ]
+    },
+    {
+      "ingredient": "Tarragon",
+      "substitutes": [
+        {"name": "Dill", "calories_per_tablespoon": 3},
+        {"name": "Chervil", "calories_per_tablespoon": 1},
+        {"name": "Parsley", "calories_per_tablespoon": 1}
+      ]
+    },
+    {
+      "ingredient": "Chervil",
+      "substitutes": [
+        {"name": "Dill", "calories_per_tablespoon": 3},
+        {"name": "Tarragon", "calories_per_tablespoon": 3},
+        {"name": "Parsley", "calories_per_tablespoon": 1}
+      ]
+    },
+    {
+      "ingredient": "Parsley",
+      "substitutes": [
+        {"name": "Dill", "calories_per_tablespoon": 3},
+        {"name": "Tarragon", "calories_per_tablespoon": 3},
+        {"name": "Chervil", "calories_per_tablespoon": 1}
+      ]
+    },
+    {
+      "ingredient": "Coriander",
+      "substitutes": [
+        {"name": "Cumin", "calories_per_tablespoon": 22},
+        {"name": "Curry Powder", "calories_per_tablespoon": 20},
+        {"name": "Paprika", "calories_per_tablespoon": 20}
+      ]
+    },
+    {
+      "ingredient": "Cayenne Pepper",
+      "substitutes": [
+        {"name": "Paprika", "calories_per_tablespoon": 20},
+        {"name": "Chili Powder", "calories_per_tablespoon": 24},
+        {"name": "Black Pepper", "calories_per_tablespoon": 16}
+      ]
+    },
+    {
+      "ingredient": "Baking Chocolate",
+      "substitutes": [
+        {"name": "Cocoa Powder", "calories_per_cup": "Varies"},
+        {"name": "Carob Powder", "calories_per_cup": "Varies"},
+        {"name": "Chocolate Chips", "calories_per_cup": "Varies"}
+      ]
+    },
+    {
+      "ingredient": "Sweetened Condensed Milk",
+      "substitutes": [
+        {"name": "Evaporated Milk + Sugar", "calories_per_cup": "Varies"},
+        {"name": "Coconut Cream + Sweetener", "calories_per_cup": "Varies"},
+        {"name": "Condensed Coconut Milk", "calories_per_cup": "Varies"}
+      ]
+    },
+    {
+      "ingredient": "Coconut Cream",
+      "substitutes": [
+        {"name": "Heavy Cream", "calories_per_cup": 792},
+        {"name": "Cashew Cream", "calories_per_cup": "Varies"},
+        {"name": "Greek Yogurt", "calories_per_cup": 100}
+      ]
+    },
+    {
+      "ingredient": "Mint",
+      "substitutes": [
+        {"name": "Peppermint Extract", "calories_per_teaspoon": 2},
+        {"name": "Spearmint", "calories_per_tablespoon": 2},
+        {"name": "Basil", "calories_per_tablespoon": 5}
+      ]
+    },
+    {
+      "ingredient": "Balsamic Vinegar",
+    "substitutes": [
+        {"name": "Red Wine Vinegar", "calories_per_tablespoon": 3},
+        {"name": "White Wine Vinegar", "calories_per_tablespoon": 3},
+        {"name": "Apple Cider Vinegar", "calories_per_tablespoon": 1}
+      ]
+    }
+  ]
+}
+
