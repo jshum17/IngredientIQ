@@ -1,5 +1,7 @@
 function displayAlternativesForIngredient(ingredientName) {
-  fetch("ingredients.json")
+  ingredientName = capitalizeWords(ingredientName);
+
+  fetch("./data/ingredients.json")
     .then(function (resp) {
       return resp.json();
     })
@@ -34,6 +36,16 @@ function displayAlternativesForIngredient(ingredientName) {
           "Ingredient not found: " + ingredientName;
       }
     });
+}
+
+function capitalizeWords(str) {
+  var words = str.trimEnd().trimStart().split(" ");
+
+  var capitalizedWords = words.map(function (word) {
+    return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+  });
+
+  return capitalizedWords.join(" ");
 }
 
 document.addEventListener("DOMContentLoaded", function () {
