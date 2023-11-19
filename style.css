@@ -32,7 +32,7 @@ body{
     width: 800px;
     border-radius: 40px;
     border:#4E7547 4px solid;
-    margin: 100px auto;
+    margin: 30px auto;
     text-decoration: none;
     font-weight: bold;
     line-height: 60px;
@@ -59,10 +59,10 @@ body{
 .search_icon_leaf {
     float:left;
     position: relative;
-    top:20px;
+    top:15px;
     left:20px;
-    width: 35px;
-    height: 35px;
+    width: 50px;
+    height: 50px;
 }
 
 .search_icon {
@@ -106,7 +106,7 @@ body{
 .instruction {
     text-align: center;
     font-size: 18px;
-    position: fixed;
+    position: relative;
     color: darkgreen;
     bottom: 0;
     left: 0;

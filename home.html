@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>Ingredient IQ</title>
-    <link rel="icon" type="image/x-icon" href="images/leaves.png">
+    <link rel="icon" type="image/x-icon" href="images/logo.PNG">
     <link href='https://fonts.googleapis.com/css?family=Koulen' rel='stylesheet'>
     <link href="style.css" rel="stylesheet" type="text/css">
     <script defer src="script.js"></script>
@@ -15,54 +15,59 @@
       <h2 class="name">Ingredient IQ</h2>
       <div class="container">
         <a class="searchbar" href="#">
-          <img class="search_icon_leaf" src="images/leaves.png" alt="Search Icon">
+          <img class="search_icon_leaf" src="images/logo.PNG" alt="Search Icon">
           <input id="ingredientInput" type="text" class="search_input" placeholder="Search Your Ingredient">
           <button class = "search_icon"><img class="search_icon_img" src="images/search.png" alt="Search Icon"></button>
         </a>
-        <p class="instruction">How to use Ingredient IQ?</p>
+
+        <div class="symbols">
+          <ul class="shortcuts">
+  
+            <li class="common_allergy">
+                <a href="#">
+                    <img width="40px" height="40px" class="foodlogo" src="images/coffee.png"/>
+                </a>
+            </li>
+            <li class="common_allergy">
+                <a href="#">
+                    <img width="40px" height="40px" class="foodlogo" src="images/sugar.png"/>
+                </a>
+            </li>
+            <li class="common_allergy">
+                <a href="#">
+                    <img width="40px" height="40px" class="foodlogo" src="images/milk.png"/>
+                </a>
+            </li>
+            <li class="common_allergy">
+              <a href="#">
+                  <img width="40px" height="40px" class="foodlogo" src="images/meat.png"/>
+              </a>
+            </li>
+            <li class="common_allergy">
+            <a href="#">
+                <img width="40px" height="40px" class="foodlogo" src="images/spanich.png"/>
+            </a>
+            </li>
+            <li class="common_allergy">
+            <a href="#">
+                <img width="40px" height="40px" class="foodlogo" src="images/wheat.png"/>
+            </a>
+            </li>
+            <li class="common_allergy">
+              <a href="#">
+                  <img width="40px" height="40px" class="foodlogo" src="images/peanut.png"/>
+              </a>
+            </li>
+        </ul>
+        </div>
+
+        
         <div id="ingredientNameContainer" class="IndividualAlternativeinfo"></div>
+
+        <p class="instruction">How to use Ingredient IQ?</p>
       </div>
 
-      <div>
-        <ul class="shortcuts">
-
-          <li class="common_allergy">
-              <a href="#">
-                  <img width="40px" height="40px" class="foodlogo" src="images/coffee.png"/>
-              </a>
-          </li>
-          <li class="common_allergy">
-              <a href="#">
-                  <img width="40px" height="40px" class="foodlogo" src="images/sugar.png"/>
-              </a>
-          </li>
-          <li class="common_allergy">
-              <a href="#">
-                  <img width="40px" height="40px" class="foodlogo" src="images/milk.png"/>
-              </a>
-          </li>
-          <li class="common_allergy">
-            <a href="#">
-                <img width="40px" height="40px" class="foodlogo" src="images/meat.png"/>
-            </a>
-          </li>
-          <li class="common_allergy">
-          <a href="#">
-              <img width="40px" height="40px" class="foodlogo" src="images/spanich.png"/>
-          </a>
-          </li>
-          <li class="common_allergy">
-          <a href="#">
-              <img width="40px" height="40px" class="foodlogo" src="images/wheat.png"/>
-          </a>
-          </li>
-          <li class="common_allergy">
-            <a href="#">
-                <img width="40px" height="40px" class="foodlogo" src="images/peanut.png"/>
-            </a>
-          </li>
-      </ul>
-      </div>
+      
     </div>
   </body>
 </html>
