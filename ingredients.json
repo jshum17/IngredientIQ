@@ -1,12 +1,12 @@
 {
   "substitutions": [
     {
-      "ingredient": "All Purpose Flour",
+      "ingredient": "All-Purpose Flour",
       "substitutes": [
         {"name": "Whole Wheat Flour", "calories_per_cup": 407},
         {"name": "Spelt Flour", "calories_per_cup": "Varies"},
         {"name": "Oat Flour", "calories_per_cup": "Varies"},
-        {"name": "Gluten Free Flour Blend", "calories_per_cup": "Varies"},
+        {"name": "Gluten-Free Flour Blend", "calories_per_cup": "Varies"},
         {"name": "Almond Flour", "calories_per_cup": 576},
         {"name": "Coconut Flour", "calories_per_cup": 480}
       ]
@@ -48,7 +48,7 @@
       "substitutes": [
         {"name": "Mashed Bananas", "calories_per_cup": 200},
         {"name": "Applesauce", "calories_per_cup": 100},
-        {"name": "Yogurt (dairy or non dairy)", "calories_per_cup": "Varies"},
+        {"name": "Yogurt (dairy or non-dairy)", "calories_per_cup": "Varies"},
         {"name": "Silken Tofu", "calories_per_cup": 144},
         {"name": "Commercial Egg Replacers", "calories_per_serving": "Varies"},
         {"name": "Buttermilk (for leavening)", "calories_per_cup": 98}
@@ -58,7 +58,7 @@
       "ingredient": "Sour Cream",
       "substitutes": [
         {"name": "Greek Yogurt", "calories_per_cup": 100},
-        {"name": "Dairy Free Yogurt", "calories": "Varies"},
+        {"name": "Dairy-Free Yogurt", "calories": "Varies"},
         {"name": "Buttermilk and Lemon Juice/Vinegar", "calories_per_cup": 98}
       ]
     },
@@ -67,7 +67,7 @@
       "substitutes": [
         {"name": "Coconut Cream", "calories_per_cup": "Varies"},
         {"name": "Cashew Cream", "calories_per_cup": "Varies"},
-        {"name": "Non Dairy Coffee Creamer", "calories_per_cup": "Varies"}
+        {"name": "Non-Dairy Coffee Creamer", "calories_per_cup": "Varies"}
       ]
     },
     {
@@ -91,14 +91,14 @@
       "substitutes": [
         {"name": "Sour Cream", "calories_per_cup": 100},
         {"name": "Buttermilk", "calories_per_cup": 98},
-        {"name": "Dairy Free Yogurt", "calories": "Varies"}
+        {"name": "Dairy-Free Yogurt", "calories": "Varies"}
       ]
     },
     {
       "ingredient": "Cream Cheese",
       "substitutes": [
         {"name": "Vegan Cream Cheese", "calories_per_2_tablespoons": "Varies"},
-        {"name": "Cashew Based Cream Cheese", "calories_per_2_tablespoons": "Varies"},
+        {"name": "Cashew-Based Cream Cheese", "calories_per_2_tablespoons": "Varies"},
         {"name": "Greek Yogurt (for savory dishes)", "calories_per_cup": "Varies"}
       ]
     },
@@ -167,7 +167,7 @@
       "ingredient": "Wine (in Cooking)",
       "substitutes": [
         {"name": "Broth (Vegetable, Chicken, or Beef)", "calories_per_cup": "Varies"},
-        {"name": "Non Alcoholic Wine", "calories_per_cup": "Varies"},
+        {"name": "Non-Alcoholic Wine", "calories_per_cup": "Varies"},
         {"name": "Grape Juice", "calories_per_cup": 154}
       ]
     }, 

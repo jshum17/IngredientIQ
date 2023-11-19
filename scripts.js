@@ -1,7 +1,5 @@
 function displayAlternativesForIngredient(ingredientName) {
-  ingredientName = capitalizeWords(ingredientName);
-
-  fetch("./data/ingredients.json")
+  fetch("ingredients.json")
     .then(function (resp) {
       return resp.json();
     })
@@ -16,36 +14,20 @@ function displayAlternativesForIngredient(ingredientName) {
           "ingredientNameContainer"
         );
         substitutesContainer.innerHTML =
-          "<div class='itemsHeader'>" +
-          "Alternatives for " +
-          ingredientName +
-          ": " +
-          "</div>";
+          "Alternatives for " + ingredientName + ": ";
 
         ingredient.substitutes.forEach(function (substitute) {
           substitutesContainer.innerHTML +=
-            "<br class='item'>" +
-            "<div class='item'>" +
+            "<br>" +
             substitute.name +
             " - Calories: " +
-            substitute.calories_per_cup +
-            "</div>";
+            substitute.calories_per_cup;
         });
       } else {
         document.getElementById("ingredientNameContainer").innerHTML =
           "Ingredient not found: " + ingredientName;
       }
     });
-}
-
-function capitalizeWords(str) {
-  var words = str.trimEnd().trimStart().split(" ");
-
-  var capitalizedWords = words.map(function (word) {
-    return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
-  });
-
-  return capitalizedWords.join(" ");
 }
 
 document.addEventListener("DOMContentLoaded", function () {
