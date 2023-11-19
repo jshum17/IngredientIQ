@@ -46,12 +46,3 @@ function displayAlternativesForIngredient(ingredientName) {
       }
     });
   });
-
-
-document.addEventListener('DOMContentLoaded', function () {
-    // Get the search bar element
-    var searchBar = document.getElementById('ingredientInput');
-
-    // Set the desired text for the search bar
-    searchBar.value = ingredientInput.value;
-});
