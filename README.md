@@ -1,3 +1,3 @@
-# IngredientIQ
+# Ingredient IQ
 
 ## By David, Lauren, Dayna, Justin
