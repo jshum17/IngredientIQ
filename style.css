@@ -2,11 +2,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+html { height: 100%; }
 
 body{
     background: linear-gradient(#4E7547, #ffffff);
-    height: 100vh;
-    margin: 0;     /* remove dfalt margin of the body */
+    height: 100%; margin: 0; 
 }
 
 .container{
@@ -17,11 +17,24 @@ body{
 .name{
     text-align: center;
     padding-top: 28px;
-    padding-left: 47px;
+    /* padding-left: 47px; */
     color: #ffffff;
     font-size: 100px;
     font-family: 'Koulen';
 }
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .name_icon {
+    width: 100px;
+    height: 100px;
+    margin: 0 30px; /* 조절 필요한 경우에 여백 조절 */
+  }
+  
 
 .searchbar {
     margin-top:100px;
@@ -69,7 +82,7 @@ body{
     float:right;
     position: relative;
     top:20px;
-    right:20px;
+    right:px;
     width: 35px;
     height: 35px;
     background-color: transparent;
