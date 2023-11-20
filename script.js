@@ -24,6 +24,7 @@ function displayAlternativesForIngredient(ingredientName) {
 
         ingredient.substitutes.forEach(function (substitute) {
           substitutesContainer.innerHTML +=
+            "<a href = 'detail'>" +
             "<div class='item'>" +
             "<div class='itemName'>" +
             substitute.name +
@@ -32,7 +33,8 @@ function displayAlternativesForIngredient(ingredientName) {
             "Calories: " +
             substitute.calories_per_cup +
             "</div>" +
-            "</div>";
+            "</div>" +
+            "</a>";
         });
       } else {
         document.getElementById("ingredientNameContainer").innerHTML =
