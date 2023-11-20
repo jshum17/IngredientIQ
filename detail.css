@@ -53,6 +53,10 @@ body{
     border-radius: 50px;
 }
 
+.proscons ul {
+    margin: 0;
+}
+
 .detailed, .adv {
     display: inline-block; 
   }
