@@ -24,7 +24,7 @@ function displayAlternativesForIngredient(ingredientName) {
 
         ingredient.substitutes.forEach(function (substitute) {
           substitutesContainer.innerHTML +=
-            "<a href = 'detail'>" +
+            "<a href = 'detail.html'>" + 
             "<div class='item'>" +
             "<div class='itemName'>" +
             substitute.name +
