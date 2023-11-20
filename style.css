@@ -181,3 +181,7 @@ body{
     font-size: 40px;
     font-family: 'Koulen';
 }
+
+.logoInIngredient {
+    text-decoration: none;
+}
