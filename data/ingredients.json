@@ -3,628 +3,685 @@
     {
       "ingredient": "All Purpose Flour",
       "substitutes": [
-        {"name": "Whole Wheat Flour", "calories_per_cup": 407},
-        {"name": "Spelt Flour", "calories_per_cup": "Varies"},
-        {"name": "Oat Flour", "calories_per_cup": "Varies"},
-        {"name": "Gluten Free Flour Blend", "calories_per_cup": "Varies"},
-        {"name": "Almond Flour", "calories_per_cup": 576},
-        {"name": "Coconut Flour", "calories_per_cup": 480}
+        {
+          "name": "Whole Wheat Flour",
+          "calories_per_cup": 407,
+          "pros": ["Higher fiber content", "More nutrients"],
+          "cons": ["Denser texture", "Stronger flavor"]
+        },
+        {
+          "name": "Spelt Flour",
+          "calories_per_cup": "Varies",
+          "pros": ["Nutrient-rich", "May be easier to digest for some"],
+          "cons": ["Contains gluten", "Varied nutritional profile"]
+        },
+        {
+          "name": "Oat Flour",
+          "calories_per_cup": "Varies",
+          "pros": ["Gluten-free option", "Rich in fiber"],
+          "cons": ["Can be dense", "Distinct flavor"]
+        },
+        {
+          "name": "Gluten-Free Flour Blend",
+          "calories_per_cup": "Varies",
+          "pros": ["Gluten-free", "Suitable for gluten-sensitive individuals"],
+          "cons": ["Varied taste and texture", "May require additional ingredients"]
+        },
+        {
+          "name": "Almond Flour",
+          "calories_per_cup": 576,
+          "pros": ["Gluten-free", "High in healthy fats and proteins"],
+          "cons": ["Calorically dense", "May alter texture"]
+        },
+        {
+          "name": "Coconut Flour",
+          "calories_per_cup": 480,
+          "pros": ["Gluten-free", "High in fiber"],
+          "cons": ["Absorbs a lot of liquid", "Distinct coconut flavor"]
+        }
       ]
     },
     {
       "ingredient": "Granulated Sugar",
       "substitutes": [
-        {"name": "Brown Sugar", "calories_per_cup": 829},
-        {"name": "Coconut Sugar", "calories_per_cup": 720},
-        {"name": "Maple Syrup", "calories_per_1_4_cup": 200},
-        {"name": "Honey", "calories_per_tablespoon": 64},
-        {"name": "Agave Nectar", "calories_per_tablespoon": 60},
-        {"name": "Stevia", "calories_per_teaspoon": 0}
+        {
+          "name": "Brown Sugar",
+          "calories_per_cup": 829,
+          "pros": ["Distinct flavor", "Adds moisture to baked goods"],
+          "cons": ["Molasses content may affect color", "Can be denser"]
+        },
+        {
+          "name": "Coconut Sugar",
+          "calories_per_cup": 720,
+          "pros": ["Lower glycemic index", "Nutrient-rich"],
+          "cons": ["May have coconut flavor", "Slightly less sweet"]
+        },
+        {
+          "name": "Maple Syrup",
+          "calories_per_1_4_cup": 200,
+          "pros": ["Natural sweetener", "Distinct flavor"],
+          "cons": ["Liquid form may alter texture", "May have strong taste"]
+        },
+        {
+          "name": "Honey",
+          "calories_per_tablespoon": 64,
+          "pros": ["Natural sweetener", "Contains antioxidants"],
+          "cons": ["Distinct flavor", "Not suitable for vegans"]
+        },
+        {
+          "name": "Agave Nectar",
+          "calories_per_tablespoon": 60,
+          "pros": ["Low glycemic index", "Vegan-friendly"],
+          "cons": ["High fructose content", "May be less sweet"]
+        },
+        {
+          "name": "Stevia",
+          "calories_per_teaspoon": 0,
+          "pros": ["Zero calories", "Does not impact blood sugar levels"],
+          "cons": ["May have a bitter aftertaste", "Not suitable for baking"]
+        }
       ]
     },
     {
       "ingredient": "Butter",
       "substitutes": [
-        {"name": "Coconut Oil", "calories_per_cup": 1920},
-        {"name": "Olive Oil", "calories_per_cup": 1920},
-        {"name": "Ghee", "calories_per_cup": 1927},
-        {"name": "Vegan Butter", "calories_per_cup": "Varies"},
-        {"name": "Nut Butters (e.g., almond, peanut)", "calories_per_cup": "Varies"}
+        {
+          "name": "Coconut Oil",
+          "calories_per_cup": 1920,
+          "pros": ["Vegan option", "Contains healthy fats"],
+          "cons": ["Distinct coconut flavor", "Melts at a lower temperature"]
+        },
+        {
+          "name": "Olive Oil",
+          "calories_per_cup": 1920,
+          "pros": ["Heart-healthy", "Rich in monounsaturated fats"],
+          "cons": ["Distinct flavor", "Lower smoke point"]
+        },
+        {
+          "name": "Ghee",
+          "calories_per_cup": 1927,
+          "pros": ["Lactose-free", "Rich, buttery flavor"],
+          "cons": ["May contain dairy allergens", "High in saturated fats"]
+        },
+        {
+          "name": "Vegan Butter",
+          "calories_per_cup": "Varies",
+          "pros": ["Dairy-free", "Available in various flavors"],
+          "cons": ["May contain additives", "Varied texture"]
+        },
+        {
+          "name": "Nut Butters (e.g., almond, peanut)",
+          "calories_per_cup": "Varies",
+          "pros": ["Rich in protein", "Varied flavors"],
+          "cons": ["Distinct nutty flavor", "Can be dense"]
+        }
       ]
     },
     {
       "ingredient": "Milk",
       "substitutes": [
-        {"name": "Almond Milk (unsweetened)", "calories_per_cup": 13},
-        {"name": "Soy Milk (unsweetened)", "calories_per_cup": 80},
-        {"name": "Coconut Milk (canned, unsweetened)", "calories_per_cup": 445},
-        {"name": "Oat Milk (unsweetened)", "calories_per_cup": "Varies"},
-        {"name": "Rice Milk (unsweetened)", "calories_per_cup": 120},
-        {"name": "Cashew Milk (unsweetened)", "calories_per_cup": "Varies"}
+        {
+          "name": "Almond Milk (unsweetened)",
+          "calories_per_cup": 13,
+          "pros": ["Dairy-free", "Low in calories"],
+          "cons": ["May lack richness", "Nutty flavor"]
+        },
+        {
+          "name": "Soy Milk (unsweetened)",
+          "calories_per_cup": 80,
+          "pros": ["Plant-based protein", "Creamy texture"],
+          "cons": ["May have a soy aftertaste", "Not suitable for those with soy allergies"]
+        },
+        {
+          "name": "Coconut Milk (canned, unsweetened)",
+          "calories_per_cup": 445,
+          "pros": ["Rich and creamy", "Distinct coconut flavor"],
+          "cons": ["High in calories", "May alter flavor"]
+        },
+        {
+          "name": "Oat Milk (unsweetened)",
+          "calories_per_cup": "Varies",
+          "pros": ["Creamy texture", "May froth well for coffee"],
+          "cons": ["May be higher in calories", "May have a grainy texture"]
+        },
+        {
+          "name": "Rice Milk (unsweetened)",
+          "calories_per_cup": 120,
+          "pros": ["Hypoallergenic", "Mild flavor"],
+          "cons": ["Thin consistency", "May lack creaminess"]
+        },
+        {
+          "name": "Cashew Milk (unsweetened)",
+          "calories_per_cup": "Varies",
+          "pros": ["Creamy texture", "Mild flavor"],
+          "cons": ["May be higher in calories", "Nutty flavor"]
+        }
       ]
     },
     {
       "ingredient": "Eggs",
       "substitutes": [
-        {"name": "Mashed Bananas", "calories_per_cup": 200},
-        {"name": "Applesauce", "calories_per_cup": 100},
-        {"name": "Yogurt (dairy or non dairy)", "calories_per_cup": "Varies"},
-        {"name": "Silken Tofu", "calories_per_cup": 144},
-        {"name": "Commercial Egg Replacers", "calories_per_serving": "Varies"},
-        {"name": "Buttermilk (for leavening)", "calories_per_cup": 98}
-      ]
-    },
-    {
-      "ingredient": "Sour Cream",
-      "substitutes": [
-        {"name": "Greek Yogurt", "calories_per_cup": 100},
-        {"name": "Dairy Free Yogurt", "calories": "Varies"},
-        {"name": "Buttermilk and Lemon Juice/Vinegar", "calories_per_cup": 98}
-      ]
-    },
-    {
-      "ingredient": "Cream",
-      "substitutes": [
-        {"name": "Coconut Cream", "calories_per_cup": "Varies"},
-        {"name": "Cashew Cream", "calories_per_cup": "Varies"},
-        {"name": "Non Dairy Coffee Creamer", "calories_per_cup": "Varies"}
-      ]
-    },
-    {
-      "ingredient": "Chocolate (Unsweetened)",
-      "substitutes": [
-        {"name": "Cocoa Powder and a Fat Source (Butter or Oil)", "calories_per_cup": "Varies"},
-        {"name": "Carob Powder", "calories_per_cup": "Varies"}
-      ]
-    },
-    {
-      "ingredient": "Breadcrumbs",
-      "substitutes": [
-        {"name": "Crushed Crackers", "calories_per_cup": "Varies"},
-        {"name": "Rolled Oats", "calories_per_cup": 300},
-        {"name": "Panko Crumbs", "calories_per_cup": "Varies"},
-        {"name": "Ground Nuts", "calories_per_cup": "Varies"}
-      ]
-    },
-    {
-      "ingredient": "Yogurt",
-      "substitutes": [
-        {"name": "Sour Cream", "calories_per_cup": 100},
-        {"name": "Buttermilk", "calories_per_cup": 98},
-        {"name": "Dairy Free Yogurt", "calories": "Varies"}
-      ]
-    },
-    {
-      "ingredient": "Cream Cheese",
-      "substitutes": [
-        {"name": "Vegan Cream Cheese", "calories_per_2_tablespoons": "Varies"},
-        {"name": "Cashew Based Cream Cheese", "calories_per_2_tablespoons": "Varies"},
-        {"name": "Greek Yogurt (for savory dishes)", "calories_per_cup": "Varies"}
-      ]
-    },
-    {
-      "ingredient": "Buttermilk",
-      "substitutes": [
-        {"name": "Milk with Vinegar or Lemon Juice", "calories_per_cup": "Varies"},
-        {"name": "Yogurt Mixed with Milk", "calories_per_cup": "Varies"}
+        {
+          "name": "Applesauce",
+          "quantity_per_egg": "1/4 cup",
+          "pros": ["Adds sweetness", "Works well in cakes and muffins"],
+          "cons": ["May alter texture", "Not suitable for savory dishes"]
+        },
+        {
+          "name": "Mashed Banana",
+          "quantity_per_egg": "1/4 cup",
+          "pros": ["Adds sweetness", "Works well in pancakes and quick breads"],
+          "cons": ["Strong banana flavor", "May alter texture"]
+        },
+        {
+          "name": "Yogurt",
+          "quantity_per_egg": "1/4 cup",
+          "pros": ["Adds moisture", "Works well in cakes and muffins"],
+          "cons": ["May alter flavor", "Not suitable for dairy-free or vegan diets"]
+        },
+        {
+          "name": "Silken Tofu",
+          "quantity_per_egg": "1/4 cup blended",
+          "pros": ["Adds moisture", "Works well in dense baked goods"],
+          "cons": ["May alter texture", "Not suitable for those with soy allergies"]
+        },
+        {
+          "name": "Buttermilk",
+          "quantity_per_egg": "1/4 cup",
+          "pros": ["Adds moisture", "Works well in cakes and muffins"],
+          "cons": ["May alter flavor", "Not suitable for dairy-free or vegan diets"]
+        },
+        {
+          "name": "Commercial Egg Replacer",
+          "quantity_per_egg": "As per package instructions",
+          "pros": ["Designed for egg replacement", "No flavor impact"],
+          "cons": ["May contain additives", "Not a whole-food option"]
+        }
       ]
     },
     {
       "ingredient": "Baking Powder",
       "substitutes": [
-        {"name": "Baking Soda and Cream of Tartar", "calories_per_teaspoon": "Varies"},
-        {"name": "Yogurt (for leavening)", "calories_per_cup": "Varies"}
+        {
+          "name": "Baking Soda + Acid (e.g., vinegar, lemon juice)",
+          "quantity_per_teaspoon": "1:1 substitution",
+          "pros": ["Leavening agent", "No added flavor"],
+          "cons": ["May require adjustments in acidic recipes", "May not work in all recipes"]
+        },
+        {
+          "name": "Self-Rising Flour",
+          "quantity_per_teaspoon": "1:1 substitution",
+          "pros": ["Convenient", "Leavening agent included"],
+          "cons": ["May alter texture", "Not suitable for all recipes"]
+        },
+        {
+          "name": "Yogurt or Buttermilk",
+          "quantity_per_teaspoon": "1:1 substitution",
+          "pros": ["Adds moisture", "Leavening agent in acidic batters"],
+          "cons": ["May alter flavor", "Not suitable for dairy-free or vegan diets"]
+        },
+        {
+          "name": "Club Soda",
+          "quantity_per_teaspoon": "1:1 substitution",
+          "pros": ["Leavening agent", "Can add lightness to batters"],
+          "cons": ["May alter flavor", "Not suitable for all recipes"]
+        },
+        {
+          "name": "Whipped Egg Whites",
+          "quantity_per_teaspoon": "2 whipped whites per teaspoon",
+          "pros": ["Leavening agent", "Adds lightness to recipes"],
+          "cons": ["Not suitable for vegan diets", "May alter texture"]
+        },
+        {
+          "name": "Cream of Tartar",
+          "quantity_per_teaspoon": "1:1 substitution",
+          "pros": ["Stabilizes whipped egg whites", "Leavening agent in combination with baking soda"],
+          "cons": ["May alter flavor", "Not a standalone substitute"]
+        }
       ]
     },
     {
-      "ingredient": "Baking Soda",
+      "ingredient": "Chocolate (semisweet)",
       "substitutes": [
-        {"name": "Baking Powder (Adjust Other Acidic Ingredients)", "calories_per_teaspoon": "Varies"},
-        {"name": "Yogurt (for leavening)", "calories_per_cup": "Varies"}
+        {
+          "name": "Cocoa Powder + Oil",
+          "quantity_per_ounce": "3 tablespoons cocoa powder + 1 tablespoon oil",
+          "pros": ["Common pantry items", "Adjustable sweetness"],
+          "cons": ["May lack texture of chocolate chips", "Requires adjustment in recipes"]
+        },
+        {
+          "name": "Carob Chips",
+          "quantity_per_ounce": "1:1 substitution",
+          "pros": ["Similar appearance and flavor", "Naturally sweet"],
+          "cons": ["May have a distinct flavor", "Texture may differ slightly"]
+        },
+        {
+          "name": "Dark Chocolate (70% cocoa or higher)",
+          "quantity_per_ounce": "1:1 substitution",
+          "pros": ["Rich flavor", "May contain less sugar"],
+          "cons": ["May be less sweet", "Texture may differ"]
+        },
+        {
+          "name": "White Chocolate",
+          "quantity_per_ounce": "1:1 substitution",
+          "pros": ["Sweet and creamy", "Adds a different flavor dimension"],
+          "cons": ["Contains no cocoa solids", "High in sugar and fat"]
+        },
+        {
+          "name": "Nut Butter Chips (e.g., peanut butter chips)",
+          "quantity_per_ounce": "1:1 substitution",
+          "pros": ["Adds nutty flavor", "Can enhance texture"],
+          "cons": ["Distinct flavor may alter recipes", "May contain allergens"]
+        },
+        {
+          "name": "Dried Fruit (e.g., raisins, cranberries)",
+          "quantity_per_ounce": "1:1 substitution",
+          "pros": ["Natural sweetness", "Adds chewiness"],
+          "cons": ["Texture may differ", "May be less rich than chocolate"]
+        }
       ]
     },
     {
-      "ingredient": "Honey",
+      "ingredient": "Vanilla Extract",
       "substitutes": [
-        {"name": "Maple Syrup", "calories_per_tablespoon": 52},
-        {"name": "Agave Nectar", "calories_per_tablespoon": 60},
-        {"name": "Brown Rice Syrup", "calories_per_tablespoon": 55}
-      ]
-    },
-    {
-      "ingredient": "Soy Sauce",
-      "substitutes": [
-        {"name": "Tamari", "calories_per_tablespoon": 10},
-        {"name": "Coconut Aminos", "calories_per_tablespoon": 5},
-        {"name": "Hoisin Sauce", "calories_per_tablespoon": 42}
-      ]
-    },
-    {
-      "ingredient": "Cheese",
-      "substitutes": [
-        {"name": "Nutritional Yeast", "calories_per_tablespoon": 20},
-        {"name": "Vegan Cheese Alternatives", "calories_per_cup": "Varies"},
-        {"name": "Cashew Cheese", "calories_per_2_tablespoons": "Varies"}
-      ]
-    },
-    {
-      "ingredient": "Lemon Juice",
-      "substitutes": [
-        {"name": "White Vinegar", "calories_per_tablespoon": 3},
-        {"name": "Apple Cider Vinegar", "calories_per_tablespoon": 1},
-        {"name": "Lime Juice", "calories_per_tablespoon": 4}
-      ]
-    },
-    {
-      "ingredient": "Heavy Cream",
-      "substitutes": [
-        {"name": "Coconut Cream", "calories_per_cup": 792},
-        {"name": "Cashew Cream", "calories_per_cup": "Varies"},
-        {"name": "Evaporated Milk", "calories_per_cup": 345}
-      ]
-    },
-    {
-      "ingredient": "Wine (in Cooking)",
-      "substitutes": [
-        {"name": "Broth (Vegetable, Chicken, or Beef)", "calories_per_cup": "Varies"},
-        {"name": "Non Alcoholic Wine", "calories_per_cup": "Varies"},
-        {"name": "Grape Juice", "calories_per_cup": 154}
-      ]
-    }, 
-    {
-      "ingredient": "Wheat Flour",
-      "substitutes": [
-        {"name": "Spelt Flour", "calories_per_cup": "Varies"},
-        {"name": "Rice Flour", "calories_per_cup": 576},
-        {"name": "Buckwheat Flour", "calories_per_cup": 402},
-        {"name": "Chickpea Flour", "calories_per_cup": 356}
-      ]
-    },
-    {
-      "ingredient": "White Sugar",
-      "substitutes": [
-        {"name": "Brown Sugar", "calories_per_cup": 829},
-        {"name": "Coconut Sugar", "calories_per_cup": 720},
-        {"name": "Maple Syrup", "calories_per_1_4_cup": 200},
-        {"name": "Honey", "calories_per_tablespoon": 64},
-        {"name": "Agave Nectar", "calories_per_tablespoon": 60},
-        {"name": "Stevia", "calories_per_teaspoon": 0}
-      ]
-    },
-    {
-      "ingredient": "Shortening",
-      "substitutes": [
-        {"name": "Butter", "calories_per_cup": 1928},
-        {"name": "Coconut Oil", "calories_per_cup": 1920},
-        {"name": "Lard", "calories_per_cup": 1844},
-        {"name": "Applesauce", "calories_per_cup": 100}
+        {
+          "name": "Maple Syrup",
+          "quantity_per_teaspoon": "1:1 substitution",
+          "pros": ["Natural sweetness", "Distinct flavor"],
+          "cons": ["Liquid form may alter texture", "May have strong taste"]
+        },
+        {
+          "name": "Almond Extract",
+          "quantity_per_teaspoon": "1/2 teaspoon",
+          "pros": ["Adds a nutty flavor", "Common pantry item"],
+          "cons": ["Strong flavor, use sparingly", "May not suit all recipes"]
+        },
+        {
+          "name": "Rum or Brandy",
+          "quantity_per_teaspoon": "1:1 substitution",
+          "pros": ["Adds depth of flavor", "Common in certain recipes"],
+          "cons": ["Alters flavor profile", "Not suitable for all dishes"]
+        },
+        {
+          "name": "Maple Flavoring",
+          "quantity_per_teaspoon": "1:1 substitution",
+          "pros": ["Sweet and aromatic", "Common in fall and winter recipes"],
+          "cons": ["May lack complexity of vanilla", "Not suitable for all dishes"]
+        },
+        {
+          "name": "Butter + Sugar (for light-colored batters)",
+          "quantity_per_teaspoon": "1:1 substitution",
+          "pros": ["Adds richness", "Simple pantry alternative"],
+          "cons": ["May alter color of the batter", "Requires adjustments"]
+        },
+        {
+          "name": "Citrus Zest (e.g., lemon, orange)",
+          "quantity_per_teaspoon": "1:1 substitution",
+          "pros": ["Bright and fresh flavor", "Adds complexity"],
+          "cons": ["May not suit all recipes", "Texture may differ"]
+        }
       ]
     },
     {
       "ingredient": "Buttermilk",
       "substitutes": [
-        {"name": "Milk with Vinegar or Lemon Juice", "calories_per_cup": "Varies"},
-        {"name": "Yogurt Mixed with Milk", "calories_per_cup": "Varies"}
+        {
+          "name": "Milk + Vinegar or Lemon Juice",
+          "quantity_per_cup": "1 cup milk + 1 tablespoon vinegar or lemon juice",
+          "pros": ["Common pantry items", "Easy to make at home"],
+          "cons": ["May alter the flavor slightly", "Requires a few minutes to curdle"]
+        },
+        {
+          "name": "Milk + Yogurt",
+          "quantity_per_cup": "1 cup milk + 2 tablespoons yogurt",
+          "pros": ["Adds thickness and tang", "Easy to prepare"],
+          "cons": ["May alter texture slightly", "Slight tangy flavor"]
+        },
+        {
+          "name": "Milk + Cream of Tartar",
+          "quantity_per_cup": "1 cup milk + 1.5 teaspoons cream of tartar",
+          "pros": ["Common pantry items", "Mild flavor alteration"],
+          "cons": ["May not be as thick as buttermilk", "Requires a few minutes to react"]
+        },
+        {
+          "name": "Sour Cream",
+          "quantity_per_cup": "1:1 substitution",
+          "pros": ["Rich and tangy", "Similar consistency"],
+          "cons": ["May alter texture slightly", "Richer than buttermilk"]
+        },
+        {
+          "name": "Yogurt",
+          "quantity_per_cup": "1:1 substitution",
+          "pros": ["Adds thickness and tang", "Common in many recipes"],
+          "cons": ["May alter texture slightly", "Slight tangy flavor"]
+        },
+        {
+          "name": "Kefir",
+          "quantity_per_cup": "1:1 substitution",
+          "pros": ["Similar consistency and tanginess", "Rich flavor"],
+          "cons": ["May not be as readily available", "May alter flavor"]
+        }
       ]
     },
     {
-      "ingredient": "Cream of Tartar",
+      "ingredient": "Baking Powder",
       "substitutes": [
-        {"name": "White Vinegar", "calories_per_tablespoon": 3},
-        {"name": "Lemon Juice", "calories_per_tablespoon": 4}
+        {
+          "name": "Baking Soda + Cream of Tartar",
+          "quantity_per_teaspoon": "1/4 teaspoon baking soda + 1/2 teaspoon cream of tartar",
+          "pros": ["Common pantry items", "Leavening power"],
+          "cons": ["May alter flavor slightly", "Double-acting baking powder is different"]
+        },
+        {
+          "name": "Yogurt + Baking Soda",
+          "quantity_per_teaspoon": "1/2 cup yogurt + 1/4 teaspoon baking soda",
+          "pros": ["Adds moisture", "Leavening power"],
+          "cons": ["May alter flavor slightly", "Adjustments needed for liquid content"]
+        },
+        {
+          "name": "Club Soda",
+          "quantity_per_teaspoon": "1:1 substitution",
+          "pros": ["Adds lightness", "No flavor alteration"],
+          "cons": ["May require adjustments in liquid content", "Not suitable for all recipes"]
+        },
+        {
+          "name": "Self-Rising Flour (reduce baking powder in recipe)",
+          "quantity_per_cup": "1:1 substitution",
+          "pros": ["Leavening power", "Convenient if available"],
+          "cons": ["May alter the overall flour content", "Not suitable for all recipes"]
+        },
+        {
+          "name": "Buttermilk (reduce liquid in recipe)",
+          "quantity_per_teaspoon": "1/2 teaspoon baking soda",
+          "pros": ["Leavening power", "Adds tanginess"],
+          "cons": ["May require adjustments in liquid content", "Tanginess may alter flavor"]
+        },
+        {
+          "name": "Whipped Egg Whites",
+          "quantity_per_teaspoon": "1/4 teaspoon baking powder",
+          "pros": ["Adds lightness", "Common in certain recipes"],
+          "cons": ["May alter texture slightly", "Not suitable for all recipes"]
+        }
       ]
     },
     {
-      "ingredient": "Mayonnaise",
+      "ingredient": "Baking Powder",
       "substitutes": [
-        {"name": "Greek Yogurt", "calories_per_cup": 100},
-        {"name": "Avocado", "calories_per_cup": 240},
-        {"name": "Olive Oil", "calories_per_cup": 1909}
-      ]
-    },
-    {
-      "ingredient": "Soy Sauce",
-      "substitutes": [
-        {"name": "Tamari", "calories_per_tablespoon": 10},
-        {"name": "Coconut Aminos", "calories_per_tablespoon": 5},
-        {"name": "Hoisin Sauce", "calories_per_tablespoon": 42}
-      ]
-    },
-    {
-      "ingredient": "White Vinegar",
-      "substitutes": [
-        {"name": "Apple Cider Vinegar", "calories_per_tablespoon": 1},
-        {"name": "Lemon Juice", "calories_per_tablespoon": 4},
-        {"name": "White Wine Vinegar", "calories_per_tablespoon": 3}
-      ]
-    },
-    {
-      "ingredient": "Butter (Salted)",
-      "substitutes": [
-        {"name": "Unsalted Butter", "calories_per_cup": 1628},
-        {"name": "Margarine", "calories_per_cup": 1840},
-        {"name": "Coconut Oil", "calories_per_cup": 1920},
-        {"name": "Olive Oil", "calories_per_cup": 1909}
-      ]
-    },
-    {
-      "ingredient": "Flaxseed (Egg Substitute)",
-      "substitutes": [
-        {"name": "Chia Seeds (Egg Substitute)", "calories_per_tablespoon": 69},
-        {"name": "Silken Tofu (Blended)", "calories_per_cup": 144},
-        {"name": "Applesauce (Egg Substitute)", "calories_per_cup": 100}
-      ]
-    },
-    {
-      "ingredient": "Cornstarch",
-      "substitutes": [
-        {"name": "Arrowroot Starch", "calories_per_cup": 480},
-        {"name": "Potato Starch", "calories_per_cup": 520},
-        {"name": "Tapioca Starch", "calories_per_cup": 544}
-      ]
-    },
-    {
-      "ingredient": "Corn Syrup",
-      "substitutes": [
-        {"name": "Maple Syrup", "calories_per_tablespoon": 52},
-        {"name": "Agave Nectar", "calories_per_tablespoon": 60},
-        {"name": "Brown Rice Syrup", "calories_per_tablespoon": 55}
-      ]
-    },
-    {
-      "ingredient": "Sesame Oil",
-      "substitutes": [
-        {"name": "Avocado Oil", "calories_per_tablespoon": 124},
-        {"name": "Grapeseed Oil", "calories_per_tablespoon": 120},
-        {"name": "Sunflower Oil", "calories_per_tablespoon": 120}
-      ]
-    },
-    {
-      "ingredient": "Shellfish",
-      "substitutes": [
-        {"name": "Fish", "calories_per_3_ounces": "Varies"},
-        {"name": "Tofu (for texture)", "calories_per_cup": 144},
-        {"name": "Mushrooms (for umami)", "calories_per_cup": 15}
-      ]
-    },
-    {
-      "ingredient": "Peanuts",
-      "substitutes": [
-        {"name": "Almonds", "calories_per_cup": 529},
-        {"name": "Cashews", "calories_per_cup": 786},
-        {"name": "Sunflower Seeds", "calories_per_cup": 745}
-      ]
-    },
-    {
-      "ingredient": "Parsley",
-      "substitutes": [
-        {"name": "Cilantro", "calories_per_cup": 0},
-        {"name": "Chives", "calories_per_cup": 1},
-        {"name": "Basil", "calories_per_cup": 5}
-      ]
-    },
-    {
-      "ingredient": "Cilantro",
-      "substitutes": [
-        {"name": "Parsley", "calories_per_cup": 0},
-        {"name": "Chives", "calories_per_cup": 1},
-        {"name": "Basil", "calories_per_cup": 5}
-      ]
-    },
-    {
-      "ingredient": "Turmeric",
-      "substitutes": [
-        {"name": "Curry Powder", "calories_per_tablespoon": 20},
-        {"name": "Saffron", "calories_per_tablespoon": 20},
-        {"name": "Paprika", "calories_per_tablespoon": 20}
-      ]
-    },
-    {
-      "ingredient": "Paprika",
-      "substitutes": [
-        {"name": "Cayenne Pepper", "calories_per_tablespoon": 17},
-        {"name": "Chili Powder", "calories_per_tablespoon": 24},
-        {"name": "Black Pepper", "calories_per_tablespoon": 16}
-      ]
-    },
-    {
-      "ingredient": "Thyme",
-      "substitutes": [
-        {"name": "Rosemary", "calories_per_tablespoon": 2},
-        {"name": "Sage", "calories_per_tablespoon": 3},
-        {"name": "Oregano", "calories_per_tablespoon": 3}
-      ]
-    },
-    {
-      "ingredient": "Fish Sauce",
-      "substitutes": [
-        {"name": "Soy Sauce", "calories_per_tablespoon": 10},
-        {"name": "Tamari", "calories_per_tablespoon": 10},
-        {"name": "Anchovy Paste", "calories_per_tablespoon": 20}
-      ]
-    },
-    {
-      "ingredient": "Cumin",
-      "substitutes": [
-        {"name": "Coriander", "calories_per_tablespoon": 5},
-        {"name": "Chili Powder", "calories_per_tablespoon": 24},
-        {"name": "Paprika", "calories_per_tablespoon": 20}
-      ]
-    },
-    {
-      "ingredient": "Rosemary",
-      "substitutes": [
-        {"name": "Thyme", "calories_per_tablespoon": 3},
-        {"name": "Sage", "calories_per_tablespoon": 3},
-        {"name": "Oregano", "calories_per_tablespoon": 3}
-      ]
-    },
-    {
-      "ingredient": "Sage",
-      "substitutes": [
-        {"name": "Thyme", "calories_per_tablespoon": 3},
-        {"name": "Rosemary", "calories_per_tablespoon": 2},
-        {"name": "Oregano", "calories_per_tablespoon": 3}
-      ]
-    },
-    {
-      "ingredient": "Oregano",
-      "substitutes": [
-        {"name": "Thyme", "calories_per_tablespoon": 3},
-        {"name": "Rosemary", "calories_per_tablespoon": 2},
-        {"name": "Sage", "calories_per_tablespoon": 3}
-      ]
-    },
-    {
-      "ingredient": "Basil",
-      "substitutes": [
-        {"name": "Cilantro", "calories_per_cup": 0},
-        {"name": "Parsley", "calories_per_cup": 0},
-        {"name": "Chives", "calories_per_cup": 1}
-      ]
-    },
-    {
-      "ingredient": "Chives",
-      "substitutes": [
-        {"name": "Cilantro", "calories_per_cup": 0},
-        {"name": "Parsley", "calories_per_cup": 0},
-        {"name": "Basil", "calories_per_cup": 5}
-      ]
-    },
-    {
-      "ingredient": "Garlic",
-      "substitutes": [
-        {"name": "Onion Powder", "calories_per_tablespoon": 22},
-        {"name": "Chives", "calories_per_cup": 1},
-        {"name": "Shallots", "calories_per_cup": 72}
-      ]
-    },
-    {
-      "ingredient": "Shallots",
-      "substitutes": [
-        {"name": "Onion Powder", "calories_per_tablespoon": 22},
-        {"name": "Chives", "calories_per_cup": 1},
-        {"name": "Garlic", "calories_per_cup": 203}
-      ]
-    },
-    {
-      "ingredient": "Cayenne Pepper",
-      "substitutes": [
-        {"name": "Paprika", "calories_per_tablespoon": 20},
-        {"name": "Chili Powder", "calories_per_tablespoon": 24},
-        {"name": "Black Pepper", "calories_per_tablespoon": 16}
-      ]
-    },
-    {
-      "ingredient": "Chili Powder",
-      "substitutes": [
-        {"name": "Cayenne Pepper", "calories_per_tablespoon": 17},
-        {"name": "Paprika", "calories_per_tablespoon": 20},
-        {"name": "Black Pepper", "calories_per_tablespoon": 16}
-      ]
-    },
-    {
-      "ingredient": "Black Pepper",
-      "substitutes": [
-        {"name": "Cayenne Pepper", "calories_per_tablespoon": 17},
-        {"name": "Paprika", "calories_per_tablespoon": 20},
-        {"name": "Chili Powder", "calories_per_tablespoon": 24}
-      ]
-    },
-    {
-      "ingredient": "Curry Powder",
-      "substitutes": [
-        {"name": "Turmeric", "calories_per_tablespoon": 20},
-        {"name": "Cumin", "calories_per_tablespoon": 22},
-        {"name": "Coriander", "calories_per_tablespoon": 5}
-      ]
-    },
-    {
-      "ingredient": "Saffron",
-      "substitutes": [
-        {"name": "Turmeric", "calories_per_tablespoon": 20},
-        {"name": "Paprika", "calories_per_tablespoon": 20},
-        {"name": "Cumin", "calories_per_tablespoon": 22}
-      ]
-    },
-    {
-      "ingredient": "Pumpkin Pie Spice",
-      "substitutes": [
-        {"name": "Cinnamon", "calories_per_tablespoon": 19},
-        {"name": "Nutmeg", "calories_per_tablespoon": 36},
-        {"name": "Allspice", "calories_per_tablespoon": 21}
-      ]
-    },
-    {
-      "ingredient": "Allspice",
-      "substitutes": [
-        {"name": "Cinnamon", "calories_per_tablespoon": 19},
-        {"name": "Nutmeg", "calories_per_tablespoon": 36},
-        {"name": "Cloves", "calories_per_tablespoon": 22}
-      ]
-    },
-    {
-      "ingredient": "Cloves",
-      "substitutes": [
-        {"name": "Cinnamon", "calories_per_tablespoon": 19},
-        {"name": "Nutmeg", "calories_per_tablespoon": 36},
-        {"name": "Allspice", "calories_per_tablespoon": 21}
-      ]
-    },
-    {
-      "ingredient": "Nutmeg",
-      "substitutes": [
-        {"name": "Cinnamon", "calories_per_tablespoon": 19},
-        {"name": "Allspice", "calories_per_tablespoon": 21},
-        {"name": "Cloves", "calories_per_tablespoon": 22}
-      ]
-    },
-    {
-      "ingredient": "Dill",
-      "substitutes": [
-        {"name": "Tarragon", "calories_per_tablespoon": 3},
-        {"name": "Chervil", "calories_per_tablespoon": 1},
-        {"name": "Parsley", "calories_per_tablespoon": 1}
-      ]
-    },
-    {
-      "ingredient": "Tarragon",
-      "substitutes": [
-        {"name": "Dill", "calories_per_tablespoon": 3},
-        {"name": "Chervil", "calories_per_tablespoon": 1},
-        {"name": "Parsley", "calories_per_tablespoon": 1}
-      ]
-    },
-    {
-      "ingredient": "Chervil",
-      "substitutes": [
-        {"name": "Dill", "calories_per_tablespoon": 3},
-        {"name": "Tarragon", "calories_per_tablespoon": 3},
-        {"name": "Parsley", "calories_per_tablespoon": 1}
-      ]
-    },
-    {
-      "ingredient": "Parsley",
-      "substitutes": [
-        {"name": "Dill", "calories_per_tablespoon": 3},
-        {"name": "Tarragon", "calories_per_tablespoon": 3},
-        {"name": "Chervil", "calories_per_tablespoon": 1}
-      ]
-    },
-    {
-      "ingredient": "Coriander",
-      "substitutes": [
-        {"name": "Cumin", "calories_per_tablespoon": 22},
-        {"name": "Curry Powder", "calories_per_tablespoon": 20},
-        {"name": "Paprika", "calories_per_tablespoon": 20}
-      ]
-    },
-    {
-      "ingredient": "Cayenne Pepper",
-      "substitutes": [
-        {"name": "Paprika", "calories_per_tablespoon": 20},
-        {"name": "Chili Powder", "calories_per_tablespoon": 24},
-        {"name": "Black Pepper", "calories_per_tablespoon": 16}
-      ]
-    },
-    {
-      "ingredient": "Baking Chocolate",
-      "substitutes": [
-        {"name": "Cocoa Powder", "calories_per_cup": "Varies"},
-        {"name": "Carob Powder", "calories_per_cup": "Varies"},
-        {"name": "Chocolate Chips", "calories_per_cup": "Varies"}
-      ]
-    },
-    {
-      "ingredient": "Sweetened Condensed Milk",
-      "substitutes": [
-        {"name": "Evaporated Milk + Sugar", "calories_per_cup": "Varies"},
-        {"name": "Coconut Cream + Sweetener", "calories_per_cup": "Varies"},
-        {"name": "Condensed Coconut Milk", "calories_per_cup": "Varies"}
-      ]
-    },
-    {
-      "ingredient": "Coconut Cream",
-      "substitutes": [
-        {"name": "Heavy Cream", "calories_per_cup": 792},
-        {"name": "Cashew Cream", "calories_per_cup": "Varies"},
-        {"name": "Greek Yogurt", "calories_per_cup": 100}
-      ]
-    },
-    {
-      "ingredient": "Mint",
-      "substitutes": [
-        {"name": "Peppermint Extract", "calories_per_teaspoon": 2},
-        {"name": "Spearmint", "calories_per_tablespoon": 2},
-        {"name": "Basil", "calories_per_tablespoon": 5}
-      ]
-    },
-    {
-      "ingredient": "Balsamic Vinegar",
-    "substitutes": [
-        {"name": "Red Wine Vinegar", "calories_per_tablespoon": 3},
-        {"name": "White Wine Vinegar", "calories_per_tablespoon": 3},
-        {"name": "Apple Cider Vinegar", "calories_per_tablespoon": 1}
+        {
+          "name": "Baking Soda + Acidic Ingredient",
+          "quantity_per_teaspoon": "1/4 teaspoon baking soda + 1/2 teaspoon cream of tartar or 1/4 teaspoon lemon juice or vinegar",
+          "pros": ["Leavening agent", "Common pantry items"],
+          "cons": ["May impart a slightly different flavor", "Adjustments needed for acidic content in the recipe"]
+        },
+        {
+          "name": "Yogurt or Buttermilk",
+          "quantity_per_teaspoon": "1/4 cup yogurt or buttermilk",
+          "pros": ["Leavening agent", "Adds moisture"],
+          "cons": ["May alter the consistency of the recipe", "Adjustments needed for liquid content"]
+        },
+        {
+          "name": "Club Soda",
+          "quantity_per_teaspoon": "1/4 teaspoon baking soda + 1/2 cup club soda",
+          "pros": ["Leavening agent", "Adds moisture"],
+          "cons": ["May alter the consistency of the recipe", "Adjustments needed for liquid content"]
+        },
+        {
+          "name": "Self-Rising Flour",
+          "quantity_per_teaspoon": "Use 1 cup self-rising flour instead of 1 cup all-purpose flour + 1 1/2 teaspoons baking powder",
+          "pros": ["Leavening agent", "Convenient one-to-one substitution"],
+          "cons": ["May require adjustment for salt content in the recipe", "Not suitable for yeast-based recipes"]
+        }
       ]
     },
     {
       "ingredient": "Coffee Bean",
       "substitutes": [
-        {"name": "Instant Coffee Powder"},
-        {"name": "Espresso Powder"}
+        {
+          "name": "Instant Coffee Granules",
+          "quantity_per_tablespoon": "1 tablespoon instant coffee granules",
+          "pros": ["Convenient and dissolves easily", "Similar coffee flavor"],
+          "cons": ["May lack the complexity of fresh coffee beans", "Adjustments needed for strength of coffee"]
+        },
+        {
+          "name": "Espresso Powder",
+          "quantity_per_tablespoon": "1 tablespoon espresso powder",
+          "pros": ["Intense coffee flavor", "Dissolves easily"],
+          "cons": ["May be stronger than regular coffee beans", "Adjustments needed for strength of coffee"]
+        },
+        {
+          "name": "Brewed Coffee",
+          "quantity_per_tablespoon": "1/4 cup brewed coffee, cooled",
+          "pros": ["Real coffee flavor", "Adds liquid to recipes"],
+          "cons": ["May alter the consistency of the recipe", "Adjustments needed for liquid content and strength of coffee"]
+        },
+        {
+          "name": "Coffee Extract",
+          "quantity_per_tablespoon": "1 teaspoon coffee extract",
+          "pros": ["Concentrated coffee flavor", "Easy to measure"],
+          "cons": ["May contain additives", "Adjustments needed for liquid content and strength of coffee"]
+        }
+      ]
+    }
+    ,
+    {
+      "ingredient": "Coffee Beans",
+      "pros": [
+        "Rich flavor and aroma",
+        "Customizable brewing methods (e.g., espresso, French press)"
+      ],
+      "cons": [
+        "Requires additional equipment for brewing (e.g., coffee grinder, brewing machine)",
+        "Caffeine content may be too high for some individuals"
       ]
     },
     {
       "ingredient": "Sugar",
       "substitutes": [
-        {"name": "Brown Sugar", "calories_per_cup": 829},
-        {"name": "Coconut Sugar", "calories_per_cup": 720},
-        {"name": "Maple Syrup", "calories_per_1_4_cup": 200},
-        {"name": "Honey", "calories_per_tablespoon": 64},
-        {"name": "Agave Nectar", "calories_per_tablespoon": 60},
-        {"name": "Stevia", "calories_per_teaspoon": 0}
-      ]
-    },
-    {
-      "ingredient": "Beef",
-      "substitutes": [
-        {"name": "Ground Turkey"},
-        {"name": "Ground Chicken"},
-        {"name": "Lentils (for vegetarian option)"},
-        {"name": "Tofu or Tempeh (for vegetarian option)"},
-        {"name": "Plant-based meat alternatives"}
-      ]
-    },
-    {
-      "ingredient": "Spinach",
-      "substitutes": [
-        {"name": "Kale"},
-        {"name": "Swiss Chard"},
-        {"name": "Collard Greens"},
-        {"name": "Arugula"},
-        {"name": "Mustard Greens"}
+        {
+          "name": "Brown Sugar",
+          "calories_per_cup": 829,
+          "pros": ["Distinct flavor", "Adds moisture to baked goods"],
+          "cons": ["Molasses content may affect color", "Can be denser"]
+        },
+        {
+          "name": "Coconut Sugar",
+          "calories_per_cup": 720,
+          "pros": ["Lower glycemic index", "Nutrient-rich"],
+          "cons": ["May have coconut flavor", "Slightly less sweet"]
+        },
+        {
+          "name": "Maple Syrup",
+          "calories_per_1_4_cup": 200,
+          "pros": ["Natural sweetener", "Distinct flavor"],
+          "cons": ["Liquid form may alter texture", "May have strong taste"]
+        },
+        {
+          "name": "Honey",
+          "calories_per_tablespoon": 64,
+          "pros": ["Natural sweetener", "Contains antioxidants"],
+          "cons": ["Distinct flavor", "Not suitable for vegans"]
+        },
+        {
+          "name": "Agave Nectar",
+          "calories_per_tablespoon": 60,
+          "pros": ["Low glycemic index", "Vegan-friendly"],
+          "cons": ["High fructose content", "May be less sweet"]
+        },
+        {
+          "name": "Stevia",
+          "calories_per_teaspoon": 0,
+          "pros": ["Zero calories", "Does not impact blood sugar levels"],
+          "cons": ["May have a bitter aftertaste", "Not suitable for baking"]
+        }
       ]
     },
     {
       "ingredient": "Flour",
       "substitutes": [
-        {"name": "Whole Wheat Flour", "calories_per_cup": 407},
-        {"name": "Spelt Flour", "calories_per_cup": "Varies"},
-        {"name": "Oat Flour", "calories_per_cup": "Varies"},
-        {"name": "Gluten-Free Flour Blend", "calories_per_cup": "Varies"},
-        {"name": "Almond Flour", "calories_per_cup": 576},
-        {"name": "Coconut Flour", "calories_per_cup": 480}
+        {
+          "name": "Whole Wheat Flour",
+          "calories_per_cup": 407,
+          "pros": ["Higher fiber content", "More nutrients"],
+          "cons": ["Denser texture", "Stronger flavor"]
+        },
+        {
+          "name": "Spelt Flour",
+          "calories_per_cup": "Varies",
+          "pros": ["Nutrient-rich", "May be easier to digest for some"],
+          "cons": ["Contains gluten", "Varied nutritional profile"]
+        },
+        {
+          "name": "Oat Flour",
+          "calories_per_cup": "Varies",
+          "pros": ["Gluten-free option", "Rich in fiber"],
+          "cons": ["Can be dense", "Distinct flavor"]
+        },
+        {
+          "name": "Gluten-Free Flour Blend",
+          "calories_per_cup": "Varies",
+          "pros": ["Gluten-free", "Suitable for gluten-sensitive individuals"],
+          "cons": ["Varied taste and texture", "May require additional ingredients"]
+        },
+        {
+          "name": "Almond Flour",
+          "calories_per_cup": 576,
+          "pros": ["Gluten-free", "High in healthy fats and proteins"],
+          "cons": ["Calorically dense", "May alter texture"]
+        },
+        {
+          "name": "Coconut Flour",
+          "calories_per_cup": 480,
+          "pros": ["Gluten-free", "High in fiber"],
+          "cons": ["Absorbs a lot of liquid", "Distinct coconut flavor"]
+        }
       ]
     },
     {
-      "ingredient": "Peanut",
+      "ingredient": "Spinach",
       "substitutes": [
-        {"name": "Almonds", "calories_per_cup": 529},
-        {"name": "Cashews", "calories_per_cup": 786},
-        {"name": "Sunflower Seeds", "calories_per_cup": 745},
-        {"name": "Other nuts or seeds of your choice"}
+        {
+          "name": "Kale",
+          "quantity_per_cup": "1 cup chopped kale",
+          "pros": ["Rich in vitamins and minerals", "Similar texture when cooked"],
+          "cons": ["Slightly different flavor", "May need adjustments for cooking time"]
+        },
+        {
+          "name": "Swiss Chard",
+          "quantity_per_cup": "1 cup chopped Swiss chard",
+          "pros": ["Nutrient-dense", "Mild flavor"],
+          "cons": ["Different texture", "May need adjustments for cooking time"]
+        },
+        {
+          "name": "Collard Greens",
+          "quantity_per_cup": "1 cup chopped collard greens",
+          "pros": ["Robust flavor", "Nutrient-rich"],
+          "cons": ["Tougher texture", "May need adjustments for cooking time"]
+        },
+        {
+          "name": "Arugula",
+          "quantity_per_cup": "1 cup arugula",
+          "pros": ["Peppery flavor", "Tender leaves"],
+          "cons": ["Distinctive taste", "May wilt more quickly when cooked"]
+        }
       ]
     }
+    ,
+    {
+      "ingredient": "Peanut",
+      "substitutes": [
+        {
+          "name": "Almonds",
+          "quantity_per_cup": "1 cup chopped almonds",
+          "pros": ["Nutty flavor", "Similar crunchy texture"],
+          "cons": ["Slightly different taste", "May have a different oil content"]
+        },
+        {
+          "name": "Cashews",
+          "quantity_per_cup": "1 cup chopped cashews",
+          "pros": ["Creamy texture", "Mild flavor"],
+          "cons": ["Distinctive taste", "May be softer than peanuts"]
+        },
+        {
+          "name": "Sunflower Seeds",
+          "quantity_per_cup": "1 cup sunflower seeds",
+          "pros": ["Nutty flavor", "Crunchy texture"],
+          "cons": ["Different taste", "May be smaller than peanuts"]
+        },
+        {
+          "name": "Soy Nuts",
+          "quantity_per_cup": "1 cup soy nuts",
+          "pros": ["Crunchy texture", "Nutty flavor"],
+          "cons": ["Soy flavor may be present", "May be denser than peanuts"]
+        }
+      ]
+    }
+    ,
+    {
+      "ingredient": "Beef",
+      "substitutes": [
+        {
+          "name": "Ground Turkey",
+          "quantity_per_pound": "1 pound ground turkey",
+          "pros": ["Leaner option", "Mild flavor"],
+          "cons": ["May be drier than beef", "Adjustments needed for seasoning"]
+        },
+        {
+          "name": "Ground Chicken",
+          "quantity_per_pound": "1 pound ground chicken",
+          "pros": ["Lean option", "Versatile for various dishes"],
+          "cons": ["May have a lighter flavor", "Adjustments needed for seasoning"]
+        },
+        {
+          "name": "Tempeh",
+          "quantity_per_cup": "1 cup crumbled tempeh",
+          "pros": ["Plant-based option", "Nutty flavor"],
+          "cons": ["Different texture", "May require additional seasoning"]
+        },
+        {
+          "name": "Lentils",
+          "quantity_per_cup": "1 cup cooked lentils",
+          "pros": ["Plant-based protein", "Earthier flavor"],
+          "cons": ["Different texture", "May need adjustments for cooking time"]
+        }
+      ]
+    },
+    {
+      "ingredient": "Egg",
+      "substitutes": [
+        {
+          "name": "Applesauce",
+          "quantity_per_egg": "1/4 cup applesauce",
+          "pros": ["Adds moisture", "Works well in baked goods"],
+          "cons": ["May impart a slight fruity flavor", "May affect the texture"]
+        },
+        {
+          "name": "Mashed Banana",
+          "quantity_per_egg": "1/4 cup mashed banana",
+          "pros": ["Adds sweetness", "Suitable for certain baked goods"],
+          "cons": ["May impart a banana flavor", "May alter the color of the dish"]
+        },
+        {
+          "name": "Yogurt",
+          "quantity_per_egg": "1/4 cup yogurt",
+          "pros": ["Adds moisture and richness", "Works well in baking"],
+          "cons": ["May affect the texture", "Adjustments needed for acidity"]
+        },
+        {
+          "name": "Silken Tofu",
+          "quantity_per_egg": "1/4 cup blended silken tofu",
+          "pros": ["Adds moisture", "Suitable for certain baked goods"],
+          "cons": ["May affect the texture", "Adjustments needed for flavor"]
+        },
+        {
+          "name": "Commercial Egg Replacer",
+          "quantity_per_egg": "Follow package instructions",
+          "pros": ["Designed specifically as an egg substitute", "Versatile"],
+          "cons": ["May contain additives", "Availability may vary"]
+        }
+      ]
+    }
+    
+    
+    
   ]
 }
-
