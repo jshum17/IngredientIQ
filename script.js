@@ -29,7 +29,7 @@ function displayAlternativesForIngredient(ingredientName) {
             substitute.name +
             "</div>" + 
             "<div class='itemCalories'>" +
-            " - Calories: " +
+            "Calories: " +
             substitute.calories_per_cup +
             "</div>" +
             "</div>";
