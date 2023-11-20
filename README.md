@@ -10,11 +10,6 @@ The number of people with dietary restrictions or preferances is rising as the p
 * CSS
 * JavaScript
 
-## Future Considerations
-
-* ...
-* ...
-
 ### Team Members
 
 David Hong, Dayna Yoon, Justin Shum, Lauren Park
