@@ -1,0 +1,81 @@
+/* detail page */
+
+html { height: 100%; }
+
+body{
+    background-color: white;
+    height: 100%; margin: 0; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+
+.name_ing2{
+    padding-left: 47px;
+    color: #4E7547;
+    font-size: 40px;
+    font-family: 'Koulen';
+    margin: 0;
+    padding-top: 28px;
+
+}
+
+body{
+    background-color: white;
+}
+
+.picked_name{
+    color: #4E7547;
+    font-family: 'Koulen';
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center; /* 가로로 중앙 정렬 */
+    align-items: center; /* 세로로 중앙 정렬 */
+    
+  }
+
+.proscons{
+    width: 800px;
+    height: 550px;
+    margin: 0;
+    margin-inline: 40px;
+    background-color: rgba(78, 117, 71, 0.8);
+    float: left;
+    border-radius: 50px;
+}
+
+.detailed, .adv {
+    display: inline-block; 
+  }
+
+.detailed{
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.adv{
+    font-family: 'Koulen';
+    font-size: 80px;
+    color: white;
+    margin: 0;
+    align-items: center;
+    margin-left: 90px;
+}
+
+.contents{
+    color: white;
+    font-size: 50px;
+    margin: 10px;
+}
