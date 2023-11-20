@@ -29,7 +29,7 @@ function displayAlternativesForIngredient(ingredientName) {
             substitute.name +
             "</div>" +
             "<div class='itemCalories'>" +
-            " - Calories: " +
+            "Calories: " +
             substitute.calories_per_cup +
             "</div>" +
             "</div>";
@@ -51,8 +51,9 @@ function capitalizeWords(str) {
   return capitalizedWords.join(" ");
 }
 
+// Ingredient Page
 document.addEventListener("DOMContentLoaded", function () {
-  var ingredientInput = document.getElementById("ingredientInputHome");
+  var ingredientInput = document.getElementById("ingredientInput");
   var searchButton = document.querySelector(".search_icon");
   var coffeeBeanIcon = document.getElementById("coffeeBeanIcon");
   var sugarIcon = document.getElementById("sugarIcon");
@@ -101,6 +102,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+// Home Page
 document.addEventListener("DOMContentLoaded", function () {
   var ingredientInput = document.getElementById("ingredientInputHome");
 
@@ -147,3 +149,66 @@ function getParameterByName(name, url) {
   if (!results[2]) return "";
   return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+  var coffeeBeanIcon = document.getElementById("coffeeBeanIcon");
+  var sugarIcon = document.getElementById("sugarIcon");
+  var milkIcon = document.getElementById("milkIcon");
+  var beefIcon = document.getElementById("beefIcon");
+  var spinachIcon = document.getElementById("spinachIcon");
+  var flourIcon = document.getElementById("flourIcon");
+  var peanutIcon = document.getElementById("peanutIcon");
+
+  coffeeBeanIcon.addEventListener("click", function () {
+    window.location.href =
+      "ingredient.html?search=" + encodeURIComponent("Coffee bean");
+    displayAlternativesForIngredient("coffee bean");
+  });
+
+  sugarIcon.addEventListener("click", function () {
+    window.location.href =
+      "ingredient.html?search=" + encodeURIComponent("Sugar");
+    displayAlternativesForIngredient("sugar");
+  });
+
+  milkIcon.addEventListener("click", function () {
+    window.location.href =
+      "ingredient.html?search=" + encodeURIComponent("Milk");
+    displayAlternativesForIngredient("milk");
+  });
+
+  beefIcon.addEventListener("click", function () {
+    window.location.href =
+      "ingredient.html?search=" + encodeURIComponent("Beef");
+    displayAlternativesForIngredient("beef");
+  });
+
+  spinachIcon.addEventListener("click", function () {
+    window.location.href =
+      "ingredient.html?search=" + encodeURIComponent("Spinach");
+    displayAlternativesForIngredient("spinach");
+  });
+
+  flourIcon.addEventListener("click", function () {
+    window.location.href =
+      "ingredient.html?search=" + encodeURIComponent("Flour");
+    displayAlternativesForIngredient("flour");
+  });
+
+  peanutIcon.addEventListener("click", function () {
+    window.location.href =
+      "ingredient.html?search=" + encodeURIComponent("Peanut");
+    displayAlternativesForIngredient("peanut");
+  });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  var ingredientInput = document.getElementById("ingredientInputHome");
+
+  ingredientInput.addEventListener("keydown", function (event) {
+    if (event.keyCode === 13) {
+      window.location.href =
+        "ingredient.html?search=" + encodeURIComponent(ingredientInput.value);
+    }
+  });
+});
