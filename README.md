@@ -2,8 +2,7 @@
 
 <br />
 <p align="center">
-    <img src="images/logo.PNG" height="100">
-    <h3 align="center">Ingredient IQ</h3>
+    <img src="images/logo.PNG" height="200">
 </p>
 
 ## About the Project
