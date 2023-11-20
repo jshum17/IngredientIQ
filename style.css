@@ -186,6 +186,11 @@ body{
     font-family: 'Koulen';
 }
 
+
+.logoInIngredient {
+    text-decoration: none;
+}
+
 @media only screen and (max-width: 1200px) {
     .itemName{
         top: 95px;
@@ -275,3 +280,4 @@ body{
         transform: translate(50%,-35%);
     }
   }
+
