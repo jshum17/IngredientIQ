@@ -75,9 +75,10 @@ body{
 }
 
 .contents{
+    font-family: 'Koulen';
     color: white;
     font-size: 30px;
-    margin: 10px 25px;
+    margin: 10px 30px;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -92,7 +93,24 @@ body{
     }
     
     .contents{
-        font-size: 25px;
+        font-size: 24px;
+        margin: 10px 25px;
+    }
+  }
+
+  @media only screen and (max-width: 900px) {
+    .detailed{
+        width: 50px;
+        height: 50px;
+    }
+
+    .adv{
+        font-size: 36px;
+        margin-left: 20px;
+    }
+    
+    .contents{
+        font-size: 22px;
         margin: 10px 25px;
     }
   }
