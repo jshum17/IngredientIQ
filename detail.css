@@ -79,3 +79,7 @@ body{
     font-size: 50px;
     margin: 10px;
 }
+
+.logoInDetail {
+    text-decoration: none;
+}
