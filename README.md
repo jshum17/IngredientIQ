@@ -5,6 +5,8 @@
     <img src="images/logo.PNG" height="200">
 </p>
 
+Check it out! (https://www.youtube.com/watch?v=RTsuBxpkIak&ab_channel=David)
+
 ## About the Project
 
 The number of people with dietary restrictions or preferances is rising as the public's interest towards health and wellness increases. Ingredient IQ is a search engine that helps users find detailed information about food substitutions for their dietary restrictions and preferances.
