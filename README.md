@@ -5,7 +5,7 @@
     <img src="images/logo.PNG" height="200">
 </p>
 
-Check it out! (https://www.youtube.com/watch?v=RTsuBxpkIak&ab_channel=David)
+Check it out! (https://youtu.be/RTsuBxpkIak)
 
 ## About the Project
 
